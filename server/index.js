@@ -69,7 +69,9 @@ io.on("connection", (socket) => {
   socket.onAny((type, payload, ack) => {
     const result = handlers.dispatch(session, type, payload ?? {});
     const { roomCode, ...reply } = result;
-    if (typeof ack === "function") ack(reply);
+    if (typeof ack === "function") {
+      ack(type === "room:create" && result.ok ? { ...reply, roomCode } : reply);
+    }
 
     syncRooms(socket, session.roomCode);
     if (result.ok && session.roomCode) broadcast(session.roomCode);

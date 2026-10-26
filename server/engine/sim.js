@@ -26,6 +26,26 @@ export function pickXI(squad) {
   return xi;
 }
 
+export function validatePlayingXI(squad, { minSize = XI_SIZE } = {}) {
+  if (!Array.isArray(squad)) return { ok: false, error: "squad must be an array" };
+  if (squad.length < minSize) {
+    return { ok: false, error: `need ${minSize} players, have ${squad.length}` };
+  }
+
+  const seen = new Set();
+  for (const player of squad) {
+    if (!player || typeof player !== "object") {
+      return { ok: false, error: "every squad entry must be a player object" };
+    }
+    const key = player.id ?? player.name ?? `${player.role ?? "role"}-${player.country ?? "country"}-${player.category ?? "category"}`;
+    if (seen.has(key)) {
+      return { ok: false, error: `duplicate player in squad: ${key}` };
+    }
+    seen.add(key);
+  }
+  return { ok: true, count: squad.length };
+}
+
 // Five bowlers, from bowlers and all-rounders first. Keepers only if there are not enough others.
 export function pickBowlers(xi) {
   const primary = xi.filter((p) => p.role === "Bowler" || p.role === "All-rounder");

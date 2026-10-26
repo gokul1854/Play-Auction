@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { roundRobin, runTournament, sortTable, decideWinner, netRunRate, blankRow, POINTS } from "../engine/tournament.js";
+import { roundRobin, runTournament, sortTable, decideWinner, netRunRate, blankRow, POINTS, normaliseTournamentFormat } from "../engine/tournament.js";
+import { validatePlayingXI } from "../engine/sim.js";
 
 function seeded(seed) {
   let a = seed >>> 0;
@@ -104,4 +105,21 @@ test("sortTable puts points first, then net run rate", () => {
   };
   assert.deepEqual(sortTable(rows).map((r) => r.code), ["C", "B", "A"]);
   assert.equal(POINTS.win, 2);
+});
+
+test("knockout format accepts the four-team bracket described in the rules", () => {
+  const t = runTournament({ teams: teams(["MI", "CSK", "RCB", "KKR"]), rng: seeded(11), format: "knockout" });
+  assert.equal(t.format, "knockout");
+  assert.equal(t.playoffs.length, 4);
+  assert.ok(["MI", "CSK", "RCB", "KKR"].includes(t.champion));
+  assert.deepEqual(t.playoffs.map((m) => m.stage).slice(0, 2), ["match 1", "match 2"]);
+});
+
+test("playing XIs must be valid before a tournament is allowed", () => {
+  const valid = Array.from({ length: 11 }, (_, i) => ({ id: i, name: `P${i}`, role: "Batter", category: "Capped", country: "India" }));
+  const invalid = [...valid];
+  invalid[0] = invalid[1];
+  assert.equal(validatePlayingXI(valid).ok, true);
+  assert.equal(validatePlayingXI(invalid).ok, false);
+  assert.match(validatePlayingXI([valid[0]]).error, /need 11 players/);
 });

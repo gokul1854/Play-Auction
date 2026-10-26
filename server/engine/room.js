@@ -3,7 +3,7 @@
 
 import { createAuction, startAuction, placeBid as engineBid, tick, addTeam, endAuction, pauseAuction, resumeAuction } from "./auction.js";
 import { DEFAULT_PURSE, nextBid } from "./purse.js";
-import { simulateMatch, XI_SIZE } from "./sim.js";
+import { simulateMatch, XI_SIZE, validatePlayingXI } from "./sim.js";
 import { poolFor, normaliseMode, BID_WINDOW_OPTIONS, DEFAULT_BID_WINDOW, SPEED_OPTIONS, DEFAULT_SPEED, OVERSEAS_OPTIONS, DEFAULT_OVERSEAS } from "./modes.js";
 import { runTournament, netRunRate } from "./tournament.js";
 import { IPL_TEAMS, TEAM_SETS, DEFAULT_TEAM_SET, teamsFor } from "./teams.js";
@@ -283,7 +283,7 @@ export function runSim(room, { home, away, now, rng = Math.random }) {
   const h = room.auction.teams[home];
   const a = room.auction.teams[away];
   if (!h || !a) return { ok: false, error: "both teams must be in the auction" };
-  const short = [h, a].filter((t) => t.squad.length < XI_SIZE);
+  const short = [h, a].filter((t) => validatePlayingXI(t.squad).ok === false);
   if (short.length) return { ok: false, error: squadError(short) };
   const result = simulateMatch({ home: { code: home, squad: h.squad }, away: { code: away, squad: a.squad }, rng });
   const id = (room.sims.at(-1)?.id ?? 0) + 1;
@@ -357,16 +357,16 @@ export function setSpeed(room, id, speed) {
 }
 
 // Plays a tournament between every team in the auction and keeps the latest one in the room.
-export function runTournamentRoom(room, { now, rng = Math.random }) {
+export function runTournamentRoom(room, { now, rng = Math.random, format = "league-playoffs" }) {
   if (!room.auction) return { ok: false, error: "run the auction first" };
   const all = Object.values(room.auction.teams);
   if (all.length < 2) return { ok: false, error: "at least two teams must be in the auction" };
-  const short = all.filter((t) => t.squad.length < XI_SIZE);
+  const short = all.filter((t) => validatePlayingXI(t.squad).ok === false);
   if (short.length) return { ok: false, error: squadError(short) };
   const teams = all.map((t) => ({ code: t.id, squad: t.squad }));
-  const result = runTournament({ teams, rng });
+  const result = runTournament({ teams, rng, format });
   if (result.error) return { ok: false, error: result.error };
-  room.tournament = { id: (room.tournament?.id ?? 0) + 1, at: now, ...result };
+  room.tournament = { id: (room.tournament?.id ?? 0) + 1, at: now, format: result.format, ...result };
   addSystem(room, `Tournament finished: ${result.champion} are the champions`);
   return { ok: true, id: room.tournament.id };
 }
@@ -402,6 +402,7 @@ export function publicState(room, now) {
     lastSim: room.sims?.length ? { ...room.sims.at(-1) } : null,
     tournament: room.tournament ? {
       id: room.tournament.id,
+      format: room.tournament.format ?? "league-playoffs",
       champion: room.tournament.champion,
       table: room.tournament.table.map((r) => ({
         code: r.code, position: r.position, played: r.played, won: r.won, lost: r.lost,

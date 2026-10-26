@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { send, getName, setName } from "../socket.js";
+import { useState } from "react";
+import { send, getName, setName, socket, playerId } from "../socket.js";
 import TeamPicker from "../components/TeamPicker.jsx";
 import { MODES } from "../data/modes.js";
 import { TEAM_BY_CODE, teamsForSet } from "../data/teams.js";
@@ -12,15 +12,9 @@ export default function Home({ navigate }) {
   const [visibility, setVisibility] = useState("public");
   const [mode, setMode] = useState("full");
   const [teamSet, setTeamSet] = useState("ipl");
-  const [tab, setTab] = useState("new");
-  const [rooms, setRooms] = useState(null);
   const [joinCode, setJoinCode] = useState("");
   const [msg, setMsg] = useState("");
   const [busy, setBusy] = useState(false);
-
-  useEffect(() => {
-    if (tab === "browse") browse();
-  }, [tab]);
 
   function requireName() {
     const n = name.trim();
@@ -34,12 +28,41 @@ export default function Home({ navigate }) {
     if (!n) return;
     if (!team) return setMsg("Choose your team");
     setBusy(true);
+
+    let stopWaiting;
+    const roomFromState = new Promise((resolve) => {
+      const finish = (code) => {
+        clearTimeout(timeout);
+        socket.off("room:state", onState);
+        resolve(code);
+      };
+      const onState = (snapshot) => {
+        if (snapshot?.hostId === playerId && snapshot.members?.some((member) => member.id === playerId)) {
+          finish(snapshot.code);
+        }
+      };
+      const timeout = setTimeout(() => finish(null), 5000);
+      stopWaiting = () => finish(null);
+      socket.on("room:state", onState);
+    });
+
     const r = await send("room:create", { name: n, visibility, mode, teamSet });
-    if (!r.ok) { setBusy(false); return setMsg(r.error); }
+    if (!r.ok) {
+      stopWaiting();
+      setBusy(false);
+      return setMsg(r.error);
+    }
+    const responseCode = /^[A-Z0-9]{6}$/.test(r.roomCode ?? "") ? r.roomCode : null;
+    const roomCode = responseCode ?? await roomFromState;
+    if (responseCode) stopWaiting();
+    if (!/^[A-Z0-9]{6}$/.test(roomCode ?? "")) {
+      setBusy(false);
+      return setMsg("Room was created, but no room code was received. Restart the server and try again.");
+    }
     const c = await send("team:claim", { teamId: team });
     setBusy(false);
-    if (!c.ok) setMsg(c.error);
-    navigate(`/room/${r.roomCode}`);
+    if (!c.ok) return setMsg(`Room ${roomCode} was created, but your team could not be claimed: ${c.error}`);
+    navigate(`/room/${roomCode}`);
   }
 
   async function join(code) {
@@ -52,11 +75,6 @@ export default function Home({ navigate }) {
     setBusy(false);
     if (!r.ok) return setMsg(r.error);
     navigate(`/room/${c}`);
-  }
-
-  async function browse() {
-    const r = await send("rooms:browse");
-    setRooms(r.ok ? r.data : []);
   }
 
   return (
@@ -80,18 +98,12 @@ export default function Home({ navigate }) {
       </div>
 
       <div className="card">
-        <div className="tabs">
-          <button type="button" className={`tab-btn t-chat${tab === "new" ? " on" : ""}`} onClick={() => setTab("new")}>New Game</button>
-          <button type="button" className={`tab-btn t-squads${tab === "browse" ? " on" : ""}`} onClick={() => setTab("browse")}>Browse Live Rooms</button>
-        </div>
-
         <div className="seg">
           <button type="button" className="on">Cricket</button>
           <button type="button" disabled title="Coming soon">Football · soon</button>
         </div>
 
-        {tab === "new" && (
-          <>
+        <>
             <p className="label">Your name</p>
             <input value={name} maxLength={16} placeholder="e.g. Gokul" onChange={(e) => setNameState(e.target.value)} />
 
@@ -127,28 +139,7 @@ export default function Home({ navigate }) {
               <input value={joinCode} maxLength={6} placeholder="ABC123" onChange={(e) => setJoinCode(e.target.value)} />
               <button type="button" className="btn small" disabled={busy} onClick={() => join()}>Join</button>
             </form>
-          </>
-        )}
-
-        {tab === "browse" && (
-          <div>
-            <p className="label">Your name</p>
-            <input value={name} maxLength={16} placeholder="e.g. Gokul" onChange={(e) => setNameState(e.target.value)} />
-            <div style={{ marginTop: 14 }}>
-              {rooms === null && <p className="muted">Loading…</p>}
-              {rooms?.length === 0 && <p className="muted">No public rooms right now. Create one!</p>}
-              {rooms?.map((r) => (
-                <div key={r.code} className="row prow" style={{ paddingLeft: 0 }}>
-                  <div>
-                    <b>{r.hostName}</b>
-                    <div className="muted" style={{ fontSize: 12 }}>{r.players} players · {r.teamsFilled}/10 teams · {r.status}</div>
-                  </div>
-                  <button type="button" className="btn small" onClick={() => join(r.code)} disabled={busy}>Join</button>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
+        </>
 
         {msg && <p className="warn" style={{ marginTop: 12 }}>{msg}</p>}
       </div>
