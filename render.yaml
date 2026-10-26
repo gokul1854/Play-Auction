@@ -1,0 +1,12 @@
+# Render Blueprint: one web service running the Node server, which also serves the built client.
+services:
+  - type: web
+    name: play-auction
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

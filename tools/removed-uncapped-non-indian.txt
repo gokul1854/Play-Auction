@@ -1,0 +1,143 @@
+Removed: non-Indian Uncapped players (142). Only 142 exist, so this is short of 150.
+Iftikhar Ahmed | Pakistan | All-rounder | pool International
+Zak Crawley | England | Batter | pool International
+Finn Allen | New Zealand | Batter | pool International
+Will Young | New Zealand | Batter | pool International
+Scott Boland | Australia | Bowler | pool International
+Keshav Maharaj | South Africa | Bowler | pool International
+Tabraiz Shamsi | South Africa | Bowler | pool International
+Gerald Coetzee | South Africa | Bowler | pool International
+Ryan Rickelton | South Africa | Keeper | pool International
+Reeza Hendricks | South Africa | Batter | pool International
+Kyle Verreynne | South Africa | Keeper | pool International
+Romario Shepherd | West Indies | All-rounder | pool International
+Ibrahim Zadran | Afghanistan | Batter | pool International
+Charith Asalanka | Sri Lanka | Batter | pool International
+Maheesh Theekshana | Sri Lanka | Bowler | pool International
+Dushmantha Chameera | Sri Lanka | Bowler | pool International
+Kraigg Brathwaite | West Indies | Batter | pool Test
+Jermaine Blackwood | West Indies | Batter | pool Test
+Henry Nicholls | New Zealand | Batter | pool Test
+Ollie Robinson | England | Bowler | pool Test
+Dean Elgar | South Africa | Batter | pool Test
+Kamindu Mendis | Sri Lanka | All-rounder | pool Test
+Prabath Jayasuriya | Sri Lanka | Bowler | pool Test
+Shan Masood | Pakistan | Batter | pool Test
+Abid Ali | Pakistan | Batter | pool Test
+Mohammad Abbas | Pakistan | Bowler | pool Test
+Azhar Ali | Pakistan | Batter | pool Test
+Saim Ayub | Pakistan | Batter | pool Test
+Nandre Burger | South Africa | Bowler | pool International
+Taskin Ahmed | Bangladesh | Bowler | pool International
+Fazalhaq Farooqi | Afghanistan | Bowler | pool International
+Gulbadin Naib | Afghanistan | All-rounder | pool International
+Blessing Muzarabani | Zimbabwe | Bowler | pool International
+Paul Stirling | Ireland | Batter | pool International
+Lutho Sipamla | South Africa | Bowler | pool International
+Kwena Maphaka | South Africa | Bowler | pool International
+Ottniel Baartman | South Africa | Bowler | pool International
+Donovan Ferreira | South Africa | Batter | pool International
+Lizaad Williams | South Africa | Bowler | pool International
+Sisanda Magala | South Africa | Bowler | pool International
+Matthew Breetzke | South Africa | Batter | pool International
+Senuran Muthusamy | South Africa | All-rounder | pool International
+Bjorn Fortuin | South Africa | All-rounder | pool IPL
+Lhuan-dre Pretorius | South Africa | Batter | pool International
+Spencer Johnson | Australia | Bowler | pool International
+Jhye Richardson | Australia | Bowler | pool International
+Matthew Short | Australia | Batter | pool International
+Aaron Hardie | Australia | All-rounder | pool International
+Xavier Bartlett | Australia | Bowler | pool IPL
+Tanveer Sangha | Australia | Bowler | pool IPL
+Ben Dwarshuis | Australia | Bowler | pool International
+Cooper Connolly | Australia | All-rounder | pool International
+Sam Konstas | Australia | Batter | pool International
+Nathan McSweeney | Australia | Batter | pool Test
+Beau Webster | Australia | All-rounder | pool International
+Mitch Owen | Australia | All-rounder | pool IPL
+Liam Dawson | England | All-rounder | pool Test
+Saqib Mahmood | England | Bowler | pool International
+Brydon Carse | England | All-rounder | pool Test
+Shoaib Bashir | England | Bowler | pool Test
+Matthew Potts | England | Bowler | pool Test
+Tom Hartley | England | Bowler | pool Test
+Rehan Ahmed | England | Bowler | pool Test
+Josh Tongue | England | Bowler | pool International
+Ben Sears | New Zealand | Bowler | pool International
+Scott Kuggeleijn | New Zealand | All-rounder | pool International
+Nathan Smith | New Zealand | Bowler | pool International
+Cole McConchie | New Zealand | All-rounder | pool International
+Zak Foulkes | New Zealand | All-rounder | pool International
+Will O'Rourke | New Zealand | Bowler | pool International
+Sahibzada Farhan | Pakistan | Batter | pool International
+Usman Khan | Pakistan | Batter | pool International
+Mohammad Hasnain | Pakistan | Bowler | pool International
+Azam Khan | Pakistan | Keeper | pool International
+Usama Mir | Pakistan | Bowler | pool International
+Aamer Jamal | Pakistan | All-rounder | pool International
+Kamran Ghulam | Pakistan | Batter | pool Test
+Shamar Joseph | West Indies | Bowler | pool International
+Jayden Seales | West Indies | Bowler | pool International
+Keacy Carty | West Indies | Batter | pool International
+Sherfane Rutherford | West Indies | Batter | pool International
+Justin Greaves | West Indies | All-rounder | pool International
+Kavem Hodge | West Indies | All-rounder | pool International
+Shamarh Brooks | West Indies | Batter | pool Test
+Amir Jangoo | West Indies | Keeper | pool International
+Hayden Walsh | West Indies | Bowler | pool International
+Dilshan Madushanka | Sri Lanka | Bowler | pool International
+Dushan Hemantha | Sri Lanka | All-rounder | pool International
+Janith Liyanage | Sri Lanka | Batter | pool International
+Vishwa Fernando | Sri Lanka | Bowler | pool International
+Nishan Madushka | Sri Lanka | Batter | pool International
+Sadeera Samarawickrama | Sri Lanka | Batter | pool International
+Chamika Karunaratne | Sri Lanka | All-rounder | pool International
+Eshan Malinga | Sri Lanka | Bowler | pool International
+Pramod Madushan | Sri Lanka | Bowler | pool International
+Lasith Embuldeniya | Sri Lanka | Bowler | pool International
+Jeffrey Vandersay | Sri Lanka | Bowler | pool International
+Nuwanidu Fernando | Sri Lanka | All-rounder | pool International
+Ikram Alikhil | Afghanistan | Keeper | pool International
+Karim Janat | Afghanistan | All-rounder | pool International
+Hazratullah Zazai | Afghanistan | Batter | pool International
+Sediqullah Atal | Afghanistan | Batter | pool International
+Mohammad Ishaq | Afghanistan | All-rounder | pool International
+Nangeyalia Kharote | Afghanistan | All-rounder | pool International
+Dawlat Zadran | Afghanistan | Bowler | pool International
+Waqar Salamkheil | Afghanistan | Bowler | pool International
+Fareed Ahmad | Afghanistan | Bowler | pool International
+Amir Hamza | Afghanistan | Bowler | pool International
+Samiullah Shinwari | Afghanistan | All-rounder | pool International
+Sharafuddin Ashraf | Afghanistan | All-rounder | pool International
+Daniel Worrall | Australia | Bowler | pool IPL
+Hardus Viljoen | South Africa | All-rounder | pool IPL
+Lance Morris | Australia | Bowler | pool International
+Alick Athanaze | West Indies | Batter | pool International
+Chadwick Walton | West Indies | Keeper | pool International
+Matthew Forde | West Indies | Bowler | pool International
+Tagenarine Chanderpaul | West Indies | Batter | pool Test
+Riaz Hassan | Afghanistan | Batter | pool International
+Abdul Rahman | Afghanistan | Bowler | pool International
+Tanzid Hasan | Bangladesh | Batter | pool International
+Tanzim Hasan Sakib | Bangladesh | Bowler | pool International
+Vikramjit Singh | Netherlands | Batter | pool International
+Teja Nidamanuru | Netherlands | Batter | pool International
+Aryan Dutt | Netherlands | Bowler | pool International
+Noah Croes | Netherlands | Bowler | pool International
+Wesley Barresi | Netherlands | Keeper | pool International
+Saqib Zulfiqar | Netherlands | Bowler | pool International
+Shariz Ahmad | Netherlands | Bowler | pool International
+Sybrand Engelbrecht | Netherlands | Batter | pool International
+Mohammad Wasim Jr | Pakistan | Bowler | pool International
+Dunith Wellalage | Sri Lanka | All-rounder | pool International
+Khawaja Mohammad Nafay | Pakistan | Keeper | pool International
+Mohammad Salman Mirza | Pakistan | Bowler | pool International
+Darwish Rasooli | Afghanistan | Batter | pool International
+Shahidullah Kamal | Afghanistan | Keeper | pool International
+Abdullah Ahmadzai | Afghanistan | Bowler | pool International
+Matthew Renshaw | Australia | Batter | pool International
+Luke Wood | England | Bowler | pool International
+Jason Smith | South Africa | All-rounder | pool International
+Kamil Mishara | Sri Lanka | Batter | pool International
+Pavan Rathnayake | Sri Lanka | All-rounder | pool International
+Quentin Sampson | West Indies | Batter | pool International

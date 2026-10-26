@@ -1,0 +1,353 @@
+:root{--bg:#0d0d11;--card:#17171e;--card2:#1d1d26;--line:#2a2a34;--text:#f2f2f5;--muted:#8d8d9a;--accent:#ff9800;--accent2:#ff5722;--good:#22c55e;--bad:#ef4444;--purple:#7c3aed;}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;min-height:100%}
+body{padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0)}
+.wrap{max-width:440px;margin:0 auto;padding:12px 12px 40px}
+h1{font-size:28px;margin:8px 0 2px;letter-spacing:-.5px}
+h1 span{color:var(--accent)}
+h2{margin:0 0 8px}
+.sub{color:var(--muted);font-size:14px;margin:0 0 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:12px}
+.label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin:0 0 6px}
+input,select{width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:#0f0f14;color:var(--text);font-size:16px;font-family:inherit}
+.btn{display:inline-block;width:100%;padding:14px;border:0;border-radius:14px;font-size:16px;font-weight:700;color:#111;background:linear-gradient(90deg,var(--accent),var(--accent2));cursor:pointer;text-align:center;font-family:inherit}
+.btn:disabled{opacity:.35;cursor:not-allowed}
+.btn.ghost{background:#26262f;color:var(--text)}
+.btn.small{width:auto;padding:8px 14px;font-size:13px;border-radius:10px}
+.iconbtn{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--card2);color:var(--text);font-size:18px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;flex:0 0 40px;text-decoration:none}
+.iconbtn.green{background:#15803d;border-color:#15803d;color:#fff}
+.row{display:flex;gap:8px;align-items:center;justify-content:space-between}
+.muted{color:var(--muted);font-size:13px}
+.warn{color:var(--accent);font-size:13px;margin:8px 0 0}
+.badge{display:inline-block;font-size:11px;padding:3px 9px;border-radius:999px;background:#2a1f12;color:var(--accent);border:1px solid #4a3414;font-weight:700}
+.badge.plain{background:#2a2a34;color:#d8d8e0;border-color:#3a3a46}
+.code{font-family:ui-monospace,Menlo,monospace;color:var(--accent);font-weight:800;letter-spacing:2px}
+.chip{background:#2a2a34;border-radius:999px;padding:6px 12px;font-size:12px;color:#ffcf99;max-width:60%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.online{font-size:13px;color:var(--good);white-space:nowrap}
+
+/* Top bar */
+.topbar{display:flex;align-items:center;gap:10px;padding:6px 0 12px}
+.topbar-title{flex:1;text-align:center;color:var(--muted);font-size:14px}
+.topbar .btn.small{flex:0 0 auto}
+
+/* Invite */
+.invite{display:flex;align-items:center;gap:8px}
+.linkbox{flex:1;min-width:0;background:#0f0f14;border:1px solid var(--line);border-radius:12px;padding:10px;font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.invite .btn.small{padding:10px 12px}
+
+/* Team circles */
+.team-circles{display:grid;grid-template-columns:repeat(5,1fr);gap:14px 8px}
+.tc{background:none;border:0;padding:0;display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;color:var(--text);font-family:inherit;min-width:0}
+.tc.taken{cursor:not-allowed;opacity:.5}
+.tc-circle{width:58px;height:58px;border-radius:50%;background:#1f1f29;border:2px solid transparent;padding:0;position:relative;display:block;transition:transform .15s}
+.tc-circle svg{position:absolute;inset:0;width:100%;height:100%;border-radius:50%}
+.tc:active .tc-circle{transform:scale(.95)}
+.tc.mine .tc-circle{border-color:var(--accent);box-shadow:0 0 0 3px #ff980033}
+.tc small{font-size:11px;color:var(--accent);min-height:14px;max-width:70px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* Tabs */
+.tabs{display:flex;gap:6px;background:#121218;border:1px solid var(--line);border-radius:14px;padding:5px;margin:4px 0 12px}
+.tab-btn{flex:1;background:transparent;border:0;color:var(--muted);padding:10px 6px;border-radius:10px;font-weight:700;font-size:13px;cursor:pointer;font-family:inherit;white-space:nowrap}
+.tab-btn.on{background:#2a2016;color:var(--accent)}
+.seg{display:flex;flex-wrap:wrap;background:#0f0f14;border:1px solid var(--line);border-radius:12px;padding:4px;gap:4px;margin-bottom:10px}
+.seg button{flex:1 1 30%;padding:9px;border:0;border-radius:9px;background:transparent;color:var(--muted);font-weight:600;cursor:pointer;font-family:inherit;font-size:13px}
+.seg button.on{background:#2a2016;color:var(--accent)}
+
+/* Lot card (live auction) */
+.lot{position:relative;padding:0 0 14px;overflow:hidden}
+.lot-progress{height:6px;background:#2a2a34;margin-bottom:14px}
+.lot-progress i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .1s linear}
+.lot-progress i.low{background:var(--bad)}
+.lot > *:not(.lot-progress){margin-left:14px;margin-right:14px}
+.lot-name{font-size:24px;font-weight:800;margin:8px 0 2px;line-height:1.15}
+.lot-right{text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+.lot-base{font-size:22px;font-weight:800}
+.timer-box{width:58px;height:58px;border-radius:12px;background:#3a1515;border:1px solid #6b2222;display:flex;flex-direction:column;align-items:center;justify-content:center;margin-top:6px;color:#ff6b6b}
+.timer-box b{font-size:22px;line-height:1}
+.timer-box span{font-size:10px;letter-spacing:1px}
+.bidrow{display:flex;align-items:center;gap:8px;margin-top:12px}
+.purse{display:flex;flex-direction:column;min-width:80px}
+.purse b{color:var(--good);font-size:14px}
+.bid-btn{flex:1;padding:16px 10px;border:0;border-radius:14px;font-size:17px;font-weight:800;color:#06140b;background:var(--good);cursor:pointer;font-family:inherit}
+.bid-btn:disabled{background:#2a2a34;color:var(--muted);cursor:not-allowed;font-size:14px}
+
+/* Lists, squads */
+.prow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0 8px 10px;border-bottom:1px solid #22222b;transition:background .15s}
+.prow:hover{background:#ffffff08}
+.squad{border-width:1.5px;border-style:solid}
+.pill{display:inline-block;min-width:30px;text-align:center;padding:4px 10px;border-radius:999px;font-weight:800;font-size:13px}
+.feed{max-height:260px;overflow:auto;font-size:13px;line-height:1.6}
+.feed div{border-bottom:1px solid #22222b;padding:5px 0}
+
+/* Match simulator */
+.sim-pick{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;margin-bottom:10px}
+.sim-pick select{padding:10px}
+.scoreboard{background:linear-gradient(160deg,#2a1a0b,#17171e 60%)}
+.sb-head{display:flex;justify-content:space-between;margin-bottom:8px}
+.sb-row{display:flex;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid #2a2a34}
+.sb-team{font-weight:800;font-size:18px;min-width:70px}
+.sb-score{font-size:26px;font-weight:800;flex:1}
+.sb-result{font-weight:700;color:var(--accent);margin:10px 0}
+
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:8px 4px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12px}
+
+/* Overlay */
+.modal{position:fixed;inset:0;background:#000b;display:flex;align-items:center;justify-content:center;padding:16px;z-index:10}
+.sheet{max-width:360px;width:100%;text-align:center}
+.footer{text-align:center;color:var(--muted);font-size:12px;margin:16px 0}
+.promo{text-decoration:none;color:var(--text)}
+.progress{height:6px;background:#26262e;border-radius:99px;overflow:hidden}
+.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.crest{width:76px;height:76px;margin:0 auto 8px;position:relative}
+.crest.big{width:112px;height:112px;margin:0 auto 12px}
+
+/* Base price and live current bid */
+.price-row{display:flex;gap:8px;margin-top:14px}
+.price-box{flex:1;min-width:0;border-radius:14px;padding:10px 12px;background:var(--card2);border:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
+.price-box.cur{background:linear-gradient(135deg,#0c3a2c,#14532d);border-color:#22c55e}
+.price-box.cur.live{box-shadow:0 0 0 2px #22c55e33}
+.price-label{font-size:11px;color:#a5b4c3;text-transform:uppercase;letter-spacing:.6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.price-val{font-size:22px;font-weight:800;color:#f2f2f5}
+.price-val.base{color:#93c5fd}
+.price-val.bump{display:inline-block;animation:bump .6s ease}
+@keyframes bump{0%{transform:scale(1.25);color:#facc15}100%{transform:scale(1);color:#f2f2f5}}
+.purse .price-label{font-size:10px}
+.bid-btn{background:linear-gradient(90deg,#22c55e,#16a34a);box-shadow:0 6px 18px #22c55e33}
+.bid-btn:disabled{background:#2a2a34;box-shadow:none}
+
+/* Colour accents from the screenshots */
+.btn.purple{background:linear-gradient(90deg,#7c3aed,#a855f7);color:#fff}
+.btn.blue{background:linear-gradient(90deg,#2563eb,#38bdf8);color:#fff}
+.iconbtn.purple{background:#5b21b6;border-color:#7c3aed;color:#fff}
+.tab-btn.t-chat.on{color:#fb923c;background:#2b1a0c}
+.tab-btn.t-squads.on{color:#60a5fa;background:#0f1d33}
+.tab-btn.t-players.on{color:#4ade80;background:#0f2a1b}
+.tab-btn.t-sim.on{color:#c084fc;background:#22123a}
+.tabs{background:linear-gradient(90deg,#15151d,#121220)}
+.chip{background:linear-gradient(90deg,#1e3a5f,#312e81);color:#e0e7ff}
+.card{background:linear-gradient(180deg,var(--card),#15151c)}
+.label{color:#fbbf24}
+.topbar .code{color:#fde047}
+.tc.mine .tc-circle{border-color:#facc15;box-shadow:0 0 0 3px #facc1533}
+.tc small{color:#fde047}
+.squad .pill{box-shadow:0 2px 8px #0006}
+.scoreboard{background:linear-gradient(160deg,#3b1d6b,#17171e 60%)}
+.sb-result{color:#fde047}
+
+/* Home screen */
+.hero{text-align:center;padding:10px 0 6px}
+.hero-ball{width:64px;height:64px;border-radius:50%;margin:0 auto 10px;background:radial-gradient(circle at 35% 30%,#ff8a8a,#d71920 55%,#6b0b0e);box-shadow:0 8px 24px #d7192055;position:relative}
+.hero-tag{display:inline-block;font-size:12px;color:#fbbf24;background:#2a2112;border:1px solid #4a3a14;padding:5px 12px;border-radius:999px}
+.hero h1{font-size:30px;margin:10px 0 0;line-height:1.15}
+.hero h1 span{color:#fb923c}
+.feature-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.feature{border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:8px;font-weight:700;font-size:13px;min-height:72px;justify-content:space-between}
+.feature.f-orange{background:linear-gradient(135deg,#3b2410,#1c140b);border:1px solid #6b4416;color:#fdba74}
+.feature.f-purple{background:linear-gradient(135deg,#2e1a4f,#170f2a);border:1px solid #5b3a8c;color:#d8b4fe}
+.tag{align-self:flex-start;font-size:10px;padding:3px 8px;border-radius:6px;font-weight:800;letter-spacing:.5px}
+.tag.new{background:#7c2d12;color:#fed7aa}
+.tag.live{background:#14532d;color:#bbf7d0}
+.seg button:disabled{opacity:.5;cursor:not-allowed}
+
+/* Room type and mode cards */
+.choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.choice,.mode{text-align:left;border-radius:14px;padding:12px;border:1px solid var(--line);background:#15151c;color:var(--text);cursor:pointer;display:flex;flex-direction:column;gap:4px;font-family:inherit}
+.choice b,.mode b{font-size:15px}
+.choice span,.mode span{font-size:12px;color:var(--muted)}
+.choice.c-green{border-color:#1f7a43}
+.choice.c-grey{border-color:#3a3a46}
+.choice.on.c-green{background:#0f2a1b;border-color:#22c55e;box-shadow:0 0 0 2px #22c55e33}
+.choice.on.c-grey{background:#1d1d26;border-color:#9ca3af;box-shadow:0 0 0 2px #9ca3af33}
+.mode-list{display:flex;flex-direction:column;gap:8px}
+.mode.c-full{border-color:#7c5a16}
+.mode.c-ipl{border-color:#1d4f8a}
+.mode.c-legends{border-color:#7c2d6b}
+.mode.on.c-full{background:#2a200c;box-shadow:0 0 0 2px #facc1533}
+.mode.on.c-ipl{background:#0c1d33;box-shadow:0 0 0 2px #38bdf833}
+.mode.on.c-legends{background:#2a0f22;box-shadow:0 0 0 2px #f472b633}
+
+/* Lobby settings */
+.setting{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid #22222b}
+.setting-val{font-weight:800;font-size:14px}
+.setting-val.gold{color:#fbbf24}
+.setting-val.green{color:#4ade80}
+.timer-choices{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin:10px 0 14px}
+.timer-choice{padding:10px 0;border-radius:10px;border:1px solid var(--line);background:#15151c;color:var(--muted);font-weight:700;cursor:pointer;font-family:inherit}
+.timer-choice.on{background:linear-gradient(90deg,#7c3aed,#a855f7);color:#fff;border-color:#a855f7}
+.timer-choice:disabled{opacity:.55;cursor:not-allowed}
+
+/* Stats tab and set groups */
+.info{background:#1b1630;border:1px solid #3b2f6b;color:#c4b5fd;border-radius:12px;padding:10px 12px;font-size:13px;margin:0 0 12px}
+.set-head{color:#fbbf24;font-weight:700;font-size:13px;padding:10px 0 4px;border-bottom:1px dashed #3a3a46;margin-top:8px}
+
+/* UNSOLD and SOLD flash over the lot */
+.lot-wrap{position:relative}
+.flash{position:absolute;inset:0;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;background:#0b0b10e6;z-index:2;animation:flashin .25s ease}
+.flash b{font-size:34px;letter-spacing:2px}
+.flash span{font-size:14px;color:#d1d5db;padding:0 16px}
+.flash.unsold b{color:#f87171}
+.flash.sold b{color:#4ade80}
+@keyframes flashin{from{opacity:0;transform:scale(.98)}to{opacity:1;transform:scale(1)}}
+.lot-wrap .lot{margin-bottom:0}
+
+/* Scorecard tables */
+table.scorecard{font-size:13px}
+table.scorecard th{font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+table.scorecard td,table.scorecard th{padding:7px 4px}
+
+/* Tournament */
+.champ{background:linear-gradient(135deg,#3b2a05,#17171e 70%);border-color:#facc15}
+.champ-name{font-size:26px;font-weight:800}
+table.scorecard tr.qualify td{background:#0f2a1b33}
+.fixture{display:block;width:100%;text-align:left;background:#15151c;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px;color:var(--text);cursor:pointer;font-family:inherit}
+.fixture:active{transform:scale(.99)}
+
+/* Speed choices: a second row of the same chips */
+.speed-choices .timer-choice{font-size:14px}
+
+/* Set order, role filter, and role counts */
+.order-choices{grid-template-columns:1fr 1fr}
+.role-seg button{font-size:12px;padding:8px 4px}
+.role-counts{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 10px}
+.role-chip{font-size:11px;padding:4px 8px;border-radius:8px;background:#ffffff14;color:#e5e7eb}
+
+/* Five tabs fit on one row */
+.tabs .tab-btn{font-size:12px;padding:10px 3px}
+
+/* SOLD effect: stamp, crest pop-in, confetti */
+.sold-fx{background:radial-gradient(circle at 50% 35%,#3a2a05f2,#0b0b10f2 70%);overflow:hidden;gap:10px}
+.sold-stamp{font-size:58px;font-weight:900;letter-spacing:6px;color:#facc15;text-shadow:0 0 22px #facc1588,0 4px 0 #7c5a00;animation:stampin .6s cubic-bezier(.2,1.6,.4,1) both;transform:rotate(-4deg)}
+@keyframes stampin{0%{transform:scale(2.6) rotate(-14deg);opacity:0}60%{transform:scale(.92) rotate(-3deg);opacity:1}100%{transform:scale(1) rotate(-4deg);opacity:1}}
+.sold-badge{width:88px;height:88px;position:relative;animation:badgepop .7s .25s cubic-bezier(.2,1.6,.4,1) both}
+@keyframes badgepop{from{transform:scale(0) rotate(-180deg);opacity:0}to{transform:scale(1) rotate(0);opacity:1}}
+.sold-name{font-size:21px;font-weight:800;animation:fadeup .5s .45s both}
+.sold-price{font-size:14px;color:#d1d5db;animation:fadeup .5s .6s both}
+.sold-amount{color:#4ade80}
+@keyframes fadeup{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+.confetti{position:absolute;top:-8%;border-radius:2px;animation-name:fall;animation-timing-function:cubic-bezier(.3,.6,.6,1);animation-fill-mode:both;pointer-events:none}
+@keyframes fall{0%{transform:translateY(0) rotate(0);opacity:1}85%{opacity:1}100%{transform:translateY(460px) rotate(620deg);opacity:0}}
+
+/* Paused */
+.paused-tag{position:absolute;top:14px;right:14px;background:#facc15;color:#111;font-weight:900;font-size:11px;letter-spacing:1px;padding:4px 10px;border-radius:999px;animation:blink 1.2s steps(2,start) infinite}
+@keyframes blink{to{opacity:.35}}
+.btn.pause{background:linear-gradient(90deg,#f59e0b,#fbbf24);color:#111}
+
+/* Overseas marker */
+.os-tag{display:inline-block;margin-left:6px;font-size:10px;font-weight:800;letter-spacing:.5px;padding:2px 6px;border-radius:6px;background:#0ea5e933;color:#7dd3fc;border:1px solid #0ea5e966;vertical-align:middle}
+.os-tag.big{font-size:11px;padding:3px 8px}
+.os-chip{background:#0ea5e922;color:#7dd3fc}
+.overseas-choices{grid-template-columns:repeat(4,1fr)}
+
+/* Kick button and career figures */
+.btn.kick{background:#7f1d1d;color:#fecaca}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:12px 0 0}
+.stat-tile{background:#15151c;border:1px solid;border-radius:12px;padding:8px 6px;display:flex;flex-direction:column;gap:2px;align-items:center}
+.stat-label{font-size:10px;text-transform:uppercase;letter-spacing:.5px;font-weight:700}
+.stat-value{font-size:17px;font-weight:800}
+.stat-value.empty{font-size:12px;font-weight:600;color:#6b7280}
+
+/* Player card, in the style of a printed cricket card */
+.pcard{margin:12px 14px 0;background:#f8fafc0d;border:1px solid #334155;border-radius:14px;overflow:hidden}
+.pcard-strip{display:flex;justify-content:space-between;align-items:center;background:linear-gradient(90deg,#1e3a8a,#1d4ed8);color:#fff;padding:7px 12px;font-weight:700;font-size:12px;letter-spacing:.4px;text-transform:uppercase}
+.pcard-table{width:100%;border-collapse:collapse;font-size:13px}
+.pcard-table td{padding:6px 12px;border-bottom:1px solid #22222b}
+.pcard-table td:first-child{font-weight:600}
+.pcard-table td:last-child{text-align:right;font-weight:800;color:#f2f2f5}
+.pcard-table td.empty{color:#6b7280;font-weight:600;font-size:12px}
+
+/* Sound button shows a speaker symbol only */
+.sound-btn{font-size:17px;padding:6px 12px;line-height:1}
+
+/* One-line figures under the player's name */
+.statline{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:#9ca3af;margin:4px 0 0}
+.statline b{font-weight:800}
+
+/* IPL career line under the card figures */
+.ipl-line{margin-top:2px}
+.ipl-tag{font-size:10px;font-weight:900;letter-spacing:.6px;padding:2px 6px;border-radius:6px;background:#1d4ed8;color:#fff}
+
+/* Test, ODI and T20I lines under the card figures */
+.format-line{margin-top:2px}
+.format-tag{font-size:10px;font-weight:900;letter-spacing:.6px;padding:2px 6px;border-radius:6px;background:#334155;color:#fff}
+
+/* Team set choice on the home hero, where the ball used to be */
+
+
+/* Team set switch on the home hero: a sliding pill with a glowing highlight */
+.team-switch{position:relative;display:grid;grid-template-columns:1fr 1fr;width:min(360px,94%);margin:0 auto 14px;padding:5px;border-radius:999px;background:linear-gradient(180deg,#171722,#0c0c13);box-shadow:inset 0 0 0 1px #2c2c3a,0 12px 30px #0009}
+.ts-glow{position:absolute;top:5px;bottom:5px;left:5px;width:calc(50% - 5px);border-radius:999px;transition:transform .35s cubic-bezier(.2,.8,.2,1),background .35s,box-shadow .35s;z-index:0}
+.team-switch[data-set="ipl"] .ts-glow{transform:translateX(0);background:linear-gradient(135deg,#f59e0b,#ea580c);box-shadow:0 6px 20px #f59e0b66}
+.team-switch[data-set="international"] .ts-glow{transform:translateX(100%);background:linear-gradient(135deg,#2563eb,#0ea5e9);box-shadow:0 6px 20px #2563eb66}
+.ts-opt{position:relative;z-index:1;border:0;background:none;color:#8b8ba0;font:800 13px/1 system-ui,sans-serif;letter-spacing:.5px;text-transform:uppercase;padding:12px 10px;border-radius:999px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:color .3s}
+.ts-opt.on{color:#fff}
+.ts-opt:not(.on):hover{color:#c9c9d6}
+.ts-mark{width:9px;height:9px;border-radius:50%;background:currentColor;box-shadow:0 0 0 3px #ffffff1f}
+.ts-opt.ts-ipl .ts-mark{border-radius:2px;transform:rotate(45deg)}
+.ts-opt.ts-nat .ts-mark{border-radius:50%}
+
+/* Player details, shown below the bid row when the ≡ button is pressed */
+.iconbtn.on{background:linear-gradient(135deg,#f59e0b,#ea580c);color:#fff;border-color:transparent}
+.pd{margin-top:12px;padding:12px;border-radius:14px;background:linear-gradient(180deg,#171722,#0e0e16);box-shadow:inset 0 0 0 1px #2c2c3a}
+.pd-title{font-weight:900;font-size:15px;margin-bottom:8px}
+.pd-sec{margin-top:8px}
+.pd-sec>b{display:inline-block;font-size:11px;letter-spacing:.6px;text-transform:uppercase;color:#f59e0b;margin-bottom:4px}
+.pd-grid{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px}
+.pd-grid i{font-style:normal;color:#8b8ba0;font-weight:700}
+
+/* Upcoming players list, opened by the ≡ button */
+.up-list{list-style:none;margin:0;padding:0;display:grid;gap:4px;max-height:360px;overflow:auto}
+.up-list li{display:grid;grid-template-columns:28px 1fr auto;align-items:center;gap:2px 8px;padding:8px 10px;border-radius:10px;background:#ffffff08}
+.up-n{grid-row:span 2;font-weight:900;color:#f59e0b;font-size:13px}
+.up-name{font-weight:800;font-size:14px}
+.up-meta{grid-column:2;font-size:12px}
+.up-price{grid-column:3;grid-row:1 / span 2;font-weight:800;font-size:13px}
+
+/* Chat box, styled like the auction mode cards */
+.chatbox{border-radius:18px;padding:12px;background:linear-gradient(180deg,#14141d,#0b0b12);box-shadow:inset 0 0 0 1px #2a2a38,0 14px 32px #0008}
+.cb-head{display:flex;align-items:center;gap:8px;padding:2px 4px 10px;border-bottom:1px solid #22222e;margin-bottom:10px}
+.cb-live{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 0 #4ade8088;animation:cb-pulse 1.8s infinite}
+@keyframes cb-pulse{0%{box-shadow:0 0 0 0 #4ade8099}70%{box-shadow:0 0 0 8px #4ade8000}100%{box-shadow:0 0 0 0 #4ade8000}}
+.cb-title{font-weight:900;font-size:13px;letter-spacing:.8px;text-transform:uppercase;color:#f2f2f5}
+.cb-count{margin-left:auto;font-size:11px;color:#8b8ba0;font-weight:700}
+.cb-feed{display:flex;flex-direction:column;gap:8px;max-height:320px;overflow:auto;padding:2px 2px 6px}
+.cb-row{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+.cb-row.me{align-items:flex-end}
+.cb-name{font-size:11px;font-weight:800;color:#f59e0b;padding-left:10px}
+.cb-bubble{max-width:82%;padding:8px 13px;border-radius:16px 16px 16px 4px;background:#1d1d2a;color:#f2f2f5;font-size:14px;line-height:1.35;box-shadow:inset 0 0 0 1px #2c2c3c;word-break:break-word}
+.cb-bubble.me{border-radius:16px 16px 4px 16px;background:linear-gradient(135deg,#f59e0b,#ea580c);color:#fff;box-shadow:0 6px 16px #f59e0b33}
+.cb-sys{display:flex;justify-content:center;margin:2px 0}
+.cb-sys span{font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px;border:1px solid;background:#0d0d14}
+.cb-form{display:flex;gap:8px;margin-top:10px;padding:5px;border-radius:999px;background:#0d0d14;box-shadow:inset 0 0 0 1px #2c2c3c}
+.cb-form input{flex:1;border:0;background:transparent;color:#f2f2f5;padding:9px 12px;font-size:14px;outline:none;min-width:0}
+.cb-send{border:0;border-radius:999px;padding:9px 18px;font-weight:900;font-size:13px;letter-spacing:.5px;color:#fff;background:linear-gradient(135deg,#f59e0b,#ea580c);box-shadow:0 6px 16px #f59e0b44;cursor:pointer}
+.cb-send:disabled{background:#2a2a34;box-shadow:none;color:#8b8ba0;cursor:not-allowed}
+
+/* ===== One design for every screen =====
+   Shared surfaces, buttons, fields, tabs and badges. Applies to the lobby, auction, squads, stats and simulator. */
+:root{--radius-lg:18px;--radius-md:14px;--surface:linear-gradient(180deg,#171722,#0e0e16);--edge:#262634;--shadow:0 12px 28px #0007;--focus:0 0 0 3px #f59e0b33}
+body{background:radial-gradient(900px 480px at 50% -12%,#2a1a06 0%,transparent 62%),var(--bg)}
+h1{font-weight:900;letter-spacing:-.6px}
+.sub{color:#8d8d9a}
+.card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--radius-lg);box-shadow:var(--shadow);padding:16px;margin-bottom:14px}
+.label{color:#f59e0b;font-size:11px;font-weight:800;letter-spacing:1px;margin:0 0 8px}
+input,select{background:#0c0c13;border:1px solid #2c2c3c;border-radius:var(--radius-md);padding:12px 14px;transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus{outline:none;border-color:#f59e0b;box-shadow:var(--focus)}
+.btn{border-radius:var(--radius-md);letter-spacing:.3px;box-shadow:0 8px 20px #f59e0b2e;transition:transform .12s,box-shadow .2s,opacity .2s}
+.btn:active{transform:scale(.98)}
+.btn:not(:disabled):hover{box-shadow:0 10px 24px #f59e0b44}
+.btn.ghost{background:#1c1c27;color:var(--text);border:1px solid #2c2c3c;box-shadow:none}
+.btn.small{border-radius:12px}
+.iconbtn{border-radius:12px;background:#1c1c27;border-color:#2c2c3c}
+.tabs{background:#0c0c13;border:1px solid #22222e;border-radius:var(--radius-lg);padding:5px}
+.tab-btn{border-radius:12px;transition:background .2s,color .2s}
+.chip{border-radius:999px}
+.badge{border-radius:999px}
+.muted{color:#8d8d9a}
+.warn{color:#fbbf24}
+
+/* Host's remove (✕) button next to a player's name in the lobby */
+.member-end{display:flex;align-items:center;gap:10px}
+.x-kick{width:26px;height:26px;border-radius:50%;border:1px solid #7f1d1d;background:#2a1212;color:#fca5a5;font-size:12px;font-weight:900;line-height:1;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;padding:0;flex:0 0 auto}
+.x-kick:hover{background:#7f1d1d;color:#fff}

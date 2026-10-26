@@ -1,0 +1,15 @@
+{
+  "name": "auction-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test server/tests/*.test.js",
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "start": "node server/index.js",
+    "dev:server": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}

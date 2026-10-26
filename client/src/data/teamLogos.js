@@ -1,0 +1,25 @@
+// One original logo per team, drawn in a 100 x 100 box and filled white. Not copies of any team's real crest.
+export const TEAM_LOGOS = {
+  "MI": "<path d=\"M16 40 Q30 26 44 40 T72 40 T90 40 L90 52 Q72 46 58 58 T30 58 T10 56 Z\" fill=\"#fff\"/><path d=\"M16 66 Q30 52 44 66 T72 66 T90 66 L90 76 Q72 70 58 82 T30 82 T10 80 Z\" fill=\"#fff\" opacity=\".8\"/>",
+  "CSK": "<path d=\"M26 20 H74 V54 Q74 74 50 84 Q26 74 26 54 Z\" fill=\"#fff\"/>",
+  "RCB": "<path d=\"M50 14 L84 50 L50 86 L16 50 Z\" fill=\"#fff\"/>",
+  "KKR": "<path d=\"M58 10 L26 56 H46 L38 90 L74 40 H54 Z\" fill=\"#fff\"/>",
+  "DC": "<polygon points=\"50,10 61,38 91,38 67,56 76,86 50,69 24,86 33,56 9,38 39,38\" fill=\"#fff\"/>",
+  "PBKS": "<path d=\"M50 16 L88 82 H12 Z\" fill=\"#fff\"/>",
+  "RR": "<path d=\"M14 72 V34 L36 52 L50 22 L64 52 L86 34 V72 Z\" fill=\"#fff\"/>",
+  "SRH": "<circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#fff\"/><g stroke=\"#fff\" stroke-width=\"6\" stroke-linecap=\"round\"><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"22\"/><line x1=\"50\" y1=\"78\" x2=\"50\" y2=\"88\"/><line x1=\"12\" y1=\"50\" x2=\"22\" y2=\"50\"/><line x1=\"78\" y1=\"50\" x2=\"88\" y2=\"50\"/><line x1=\"23\" y1=\"23\" x2=\"30\" y2=\"30\"/><line x1=\"70\" y1=\"70\" x2=\"77\" y2=\"77\"/><line x1=\"77\" y1=\"23\" x2=\"70\" y2=\"30\"/><line x1=\"30\" y1=\"70\" x2=\"23\" y2=\"77\"/></g>",
+  "GT": "<path d=\"M50 12 L84 32 V68 L50 88 L16 68 V32 Z\" fill=\"#fff\"/>",
+  "LSG": "<g fill=\"#fff\"><circle cx=\"50\" cy=\"28\" r=\"18\"/><circle cx=\"71\" cy=\"43\" r=\"18\"/><circle cx=\"63\" cy=\"68\" r=\"18\"/><circle cx=\"37\" cy=\"68\" r=\"18\"/><circle cx=\"29\" cy=\"43\" r=\"18\"/></g><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"#000\" opacity=\".35\"/>",
+  "IND": "<polygon points=\"50,10 61,38 91,38 67,56 76,86 50,69 24,86 33,56 9,38 39,38\" fill=\"#fff\"/>",
+  "AUS": "<g fill=\"#fff\"><circle cx=\"50\" cy=\"28\" r=\"18\"/><circle cx=\"71\" cy=\"43\" r=\"18\"/><circle cx=\"63\" cy=\"68\" r=\"18\"/><circle cx=\"37\" cy=\"68\" r=\"18\"/><circle cx=\"29\" cy=\"43\" r=\"18\"/></g><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"#000\" opacity=\".35\"/>",
+  "ENG": "<path d=\"M40 14 H60 V40 H86 V60 H60 V86 H40 V60 H14 V40 H40 Z\" fill=\"#fff\"/>",
+  "PAK": "<path d=\"M62 18 A34 34 0 1 0 82 68 A28 28 0 1 1 62 18 Z\" fill=\"#fff\"/><polygon points=\"76,30 79,38 87,38 81,43 83,51 76,46 69,51 71,43 65,38 73,38\" fill=\"#fff\"/>",
+  "SA": "<circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#fff\"/><g stroke=\"#fff\" stroke-width=\"6\" stroke-linecap=\"round\"><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"22\"/><line x1=\"50\" y1=\"78\" x2=\"50\" y2=\"88\"/><line x1=\"12\" y1=\"50\" x2=\"22\" y2=\"50\"/><line x1=\"78\" y1=\"50\" x2=\"88\" y2=\"50\"/><line x1=\"23\" y1=\"23\" x2=\"30\" y2=\"30\"/><line x1=\"70\" y1=\"70\" x2=\"77\" y2=\"77\"/><line x1=\"77\" y1=\"23\" x2=\"70\" y2=\"30\"/><line x1=\"30\" y1=\"70\" x2=\"23\" y2=\"77\"/></g>",
+  "NZ": "<path d=\"M22 78 C22 44 44 22 80 20 C80 56 58 78 22 78 Z\" fill=\"#fff\"/><path d=\"M22 78 L60 40\" stroke=\"#000\" stroke-opacity=\".3\" stroke-width=\"3\" fill=\"none\"/>",
+  "WI": "<path d=\"M50 12 L72 44 H62 L80 70 H20 L38 44 H28 Z\" fill=\"#fff\"/><rect x=\"44\" y=\"70\" width=\"12\" height=\"16\" fill=\"#fff\"/>",
+  "SL": "<g fill=\"#fff\"><ellipse cx=\"50\" cy=\"36\" rx=\"9\" ry=\"22\"/><ellipse cx=\"32\" cy=\"50\" rx=\"9\" ry=\"22\" transform=\"rotate(-40 32 50)\"/><ellipse cx=\"68\" cy=\"50\" rx=\"9\" ry=\"22\" transform=\"rotate(40 68 50)\"/></g><rect x=\"14\" y=\"70\" width=\"72\" height=\"8\" rx=\"4\" fill=\"#fff\"/>",
+  "AFG": "<path d=\"M10 78 L40 26 L56 52 L66 38 L90 78 Z\" fill=\"#fff\"/>",
+  "BAN": "<path d=\"M16 40 Q30 26 44 40 T72 40 T90 40 L90 52 Q72 46 58 58 T30 58 T10 56 Z\" fill=\"#fff\"/><path d=\"M16 66 Q30 52 44 66 T72 66 T90 66 L90 76 Q72 70 58 82 T30 82 T10 80 Z\" fill=\"#fff\" opacity=\".8\"/>",
+  "NED": "<path d=\"M14 72 V34 L36 52 L50 22 L64 52 L86 34 V72 Z\" fill=\"#fff\"/>",
+  "ZIM": "<path d=\"M14 58 Q36 28 58 44 L86 32 L72 54 Q56 76 14 58 Z\" fill=\"#fff\"/>"
+};

@@ -1,0 +1,6837 @@
+[
+  {
+    "id": "p0001",
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "matches": 242,
+    "wickets": 4,
+    "average": 59.84,
+    "not_out": 39,
+    "balls": 655,
+    "catches": 124,
+    "highest": "183",
+    "birth_date": "5/11/88",
+    "formats": {
+      "ipl": {
+        "innings": 259,
+        "runs": 8661,
+        "strike_rate": 132.9,
+        "highest": 113,
+        "hundreds": 8,
+        "fifties": 63,
+        "fours": 771,
+        "sixes": 291,
+        "bowl_innings": 26,
+        "wickets": 4,
+        "economy": 8.8,
+        "bowling_strike_rate": 62.8
+      }
+    }
+  },
+  {
+    "id": "p0002",
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "matches": 196,
+    "runs": 7639,
+    "wickets": 8,
+    "average": 48.04,
+    "hundreds": 22,
+    "fifties": 37,
+    "not_out": 31,
+    "balls": 593,
+    "catches": 71,
+    "highest": "264",
+    "birth_date": "30/4/87",
+    "formats": {
+      "ipl": {
+        "innings": 266,
+        "runs": 7046,
+        "strike_rate": 132.1,
+        "highest": 109,
+        "hundreds": 2,
+        "fifties": 47,
+        "fours": 640,
+        "sixes": 302,
+        "bowl_innings": 32,
+        "wickets": 15,
+        "economy": 8.02,
+        "bowling_strike_rate": 22.6
+      }
+    }
+  },
+  {
+    "id": "p0003",
+    "name": "MS Dhoni",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "matches": 350,
+    "runs": 10773,
+    "wickets": 1,
+    "average": 50.57,
+    "hundreds": 10,
+    "fifties": 73,
+    "not_out": 84,
+    "balls": 36,
+    "catches": 321,
+    "highest": "183*",
+    "formats": {
+      "ipl": {
+        "innings": 241,
+        "runs": 5439,
+        "strike_rate": 137.5,
+        "highest": 84,
+        "hundreds": 0,
+        "fifties": 24,
+        "fours": 375,
+        "sixes": 264,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0004",
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "test": {
+        "matches": 52,
+        "wickets": 234,
+        "economy": 2.77,
+        "best_bowling": "6/27"
+      },
+      "odi": {
+        "matches": 89,
+        "wickets": 149,
+        "bowling_average": 23.55,
+        "economy": 4.6,
+        "best_bowling": "6/19"
+      },
+      "t20i": {
+        "matches": 95,
+        "wickets": 121,
+        "bowling_average": 18.08,
+        "economy": 6.52,
+        "best_bowling": "4/15"
+      },
+      "source": "Cross-checked: cricket.com, cricket.com.au, wisden.com, mykhel.com, Wikipedia (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0005",
+    "name": "Rishabh Pant",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 123,
+        "runs": 3553,
+        "strike_rate": 147.6,
+        "highest": 128,
+        "hundreds": 2,
+        "fifties": 19,
+        "fours": 319,
+        "sixes": 170,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0006",
+    "name": "KL Rahul",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 135,
+        "runs": 5222,
+        "strike_rate": 136,
+        "highest": 132,
+        "hundreds": 5,
+        "fifties": 40,
+        "fours": 452,
+        "sixes": 208,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0007",
+    "name": "Hardik Pandya",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "matches": 54,
+    "runs": 957,
+    "wickets": 54,
+    "average": 29.9,
+    "hundreds": 0,
+    "fifties": 4,
+    "not_out": 6,
+    "balls": 2368,
+    "catches": 22,
+    "highest": "83",
+    "birth_date": "11/10/93",
+    "formats": {
+      "ipl": {
+        "innings": 140,
+        "runs": 2749,
+        "strike_rate": 146.9,
+        "highest": 91,
+        "hundreds": 0,
+        "fifties": 10,
+        "fours": 207,
+        "sixes": 148,
+        "bowl_innings": 107,
+        "wickets": 78,
+        "economy": 9.18,
+        "bowling_strike_rate": 20.9
+      }
+    }
+  },
+  {
+    "id": "p0008",
+    "name": "Ravindra Jadeja",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "matches": 159,
+    "runs": 2188,
+    "wickets": 181,
+    "average": 31.25,
+    "hundreds": 0,
+    "fifties": 11,
+    "not_out": 36,
+    "balls": 8029,
+    "catches": 58,
+    "highest": "87",
+    "birth_date": "6/12/88",
+    "formats": {
+      "ipl": {
+        "innings": 194,
+        "runs": 3260,
+        "strike_rate": 130.3,
+        "highest": 77,
+        "hundreds": 0,
+        "fifties": 5,
+        "fours": 240,
+        "sixes": 117,
+        "bowl_innings": 225,
+        "wickets": 170,
+        "economy": 7.67,
+        "bowling_strike_rate": 23.9
+      }
+    }
+  },
+  {
+    "id": "p0009",
+    "name": "Shubman Gill",
+    "country": "India",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 114,
+        "runs": 3866,
+        "strike_rate": 138.7,
+        "highest": 129,
+        "hundreds": 4,
+        "fifties": 26,
+        "fours": 372,
+        "sixes": 119,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0010",
+    "name": "Suryakumar Yadav",
+    "country": "India",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 151,
+        "runs": 4311,
+        "strike_rate": 148.7,
+        "highest": 103,
+        "hundreds": 2,
+        "fifties": 29,
+        "fours": 454,
+        "sixes": 168,
+        "bowl_innings": 1,
+        "wickets": 0,
+        "economy": 8
+      }
+    }
+  },
+  {
+    "id": "p0011",
+    "name": "Yashasvi Jaiswal",
+    "country": "India",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 66,
+        "runs": 2166,
+        "strike_rate": 152.9,
+        "highest": 124,
+        "hundreds": 2,
+        "fifties": 15,
+        "fours": 258,
+        "sixes": 92,
+        "bowl_innings": 1,
+        "wickets": 0,
+        "economy": 36
+      }
+    }
+  },
+  {
+    "id": "p0012",
+    "name": "Sanju Samson",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 171,
+        "runs": 4704,
+        "strike_rate": 139,
+        "highest": 119,
+        "hundreds": 3,
+        "fifties": 26,
+        "fours": 379,
+        "sixes": 219,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0013",
+    "name": "Mohammed Shami",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "test": {
+        "matches": 64,
+        "runs": 750,
+        "batting_average": 12.09,
+        "strike_rate": 74.62,
+        "highest": "56",
+        "fifties": 2,
+        "wickets": 229,
+        "bowling_average": 27.71,
+        "economy": 3.3,
+        "five_wickets": 6
+      },
+      "odi": {
+        "matches": 108,
+        "runs": 225,
+        "batting_average": 7.75,
+        "highest": "25",
+        "wickets": 206,
+        "bowling_average": 24.05,
+        "economy": 5.58,
+        "best_bowling": "7/57"
+      },
+      "t20i": {
+        "matches": 25,
+        "runs": 7,
+        "batting_average": 3.5,
+        "wickets": 27,
+        "bowling_average": 28.18,
+        "economy": 8.95
+      },
+      "source": "Cross-checked: cricket.com, cricket.com.au, wisden.com, mykhel.com, Wikipedia (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0014",
+    "name": "Kuldeep Yadav",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "matches": 56,
+    "runs": 101,
+    "wickets": 99,
+    "average": 12.62,
+    "not_out": 12,
+    "balls": 2952,
+    "catches": 7,
+    "highest": "19",
+    "birth_date": "14/12/94"
+  },
+  {
+    "id": "p0015",
+    "name": "Travis Head",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 37,
+        "runs": 1146,
+        "strike_rate": 170,
+        "highest": 102,
+        "hundreds": 1,
+        "fifties": 8,
+        "fours": 126,
+        "sixes": 55,
+        "bowl_innings": 6,
+        "wickets": 2,
+        "economy": 11.69,
+        "bowling_strike_rate": 29
+      }
+    }
+  },
+  {
+    "id": "p0016",
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "odi": {
+        "matches": 90,
+        "wickets": 143,
+        "economy": 5.27,
+        "best_bowling": "5/70"
+      },
+      "t20i": {
+        "matches": 57,
+        "wickets": 66,
+        "economy": 7.44
+      },
+      "source": "Cross-checked: cricket.com, cricket.com.au (agreeing values only; Test figures differ by date and are left out)"
+    }
+  },
+  {
+    "id": "p0017",
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 114,
+        "runs": 2651,
+        "strike_rate": 174.2,
+        "highest": 88,
+        "hundreds": 0,
+        "fifties": 12,
+        "fours": 186,
+        "sixes": 223,
+        "bowl_innings": 121,
+        "wickets": 123,
+        "economy": 9.51,
+        "bowling_strike_rate": 14.7
+      }
+    }
+  },
+  {
+    "id": "p0018",
+    "name": "Sunil Narine",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 118,
+        "runs": 1780,
+        "strike_rate": 166.5,
+        "highest": 109,
+        "hundreds": 1,
+        "fifties": 7,
+        "fours": 189,
+        "sixes": 116,
+        "bowl_innings": 187,
+        "wickets": 192,
+        "economy": 6.8,
+        "bowling_strike_rate": 22.6
+      }
+    }
+  },
+  {
+    "id": "p0019",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "test": {
+        "matches": 6,
+        "wickets": 45
+      },
+      "odi": {
+        "matches": 123,
+        "wickets": 226,
+        "economy": 4.24,
+        "best_bowling": "7/18"
+      },
+      "t20i": {
+        "matches": 115,
+        "wickets": 193,
+        "best_bowling": "5/3"
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com.au, CrickTimes, cricket.com (agreeing values only; figures vary by update date)"
+    }
+  },
+  {
+    "id": "p0020",
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "test": {
+        "matches": 78,
+        "wickets": 317,
+        "economy": 3
+      },
+      "odi": {
+        "matches": 114,
+        "wickets": 211,
+        "economy": 5,
+        "best_bowling": "7/34"
+      },
+      "t20i": {
+        "matches": 61,
+        "wickets": 83,
+        "economy": 7.68,
+        "best_bowling": "4/13"
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com, cricket.com.au, TV9 (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0021",
+    "name": "Jos Buttler",
+    "country": "England",
+    "role": "Keeper",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 119,
+        "runs": 4120,
+        "strike_rate": 149.4,
+        "highest": 124,
+        "hundreds": 7,
+        "fifties": 24,
+        "fours": 407,
+        "sixes": 185,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0022",
+    "name": "Heinrich Klaasen",
+    "country": "South Africa",
+    "role": "Keeper",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 45,
+        "runs": 1480,
+        "strike_rate": 169.7,
+        "highest": 105,
+        "hundreds": 2,
+        "fifties": 7,
+        "fours": 98,
+        "sixes": 89,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0023",
+    "name": "Nicholas Pooran",
+    "country": "West Indies",
+    "role": "Keeper",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 86,
+        "runs": 2293,
+        "strike_rate": 169,
+        "highest": 87,
+        "hundreds": 0,
+        "fifties": 14,
+        "fours": 157,
+        "sixes": 167,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0024",
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 134,
+        "runs": 2819,
+        "strike_rate": 155.1,
+        "highest": 95,
+        "hundreds": 0,
+        "fifties": 18,
+        "fours": 237,
+        "sixes": 161,
+        "bowl_innings": 85,
+        "wickets": 41,
+        "economy": 8.3,
+        "bowling_strike_rate": 24.9
+      }
+    }
+  },
+  {
+    "id": "p0025",
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "t20i": {
+        "matches": 65,
+        "wickets": 79,
+        "economy": 7.74,
+        "best_bowling": "4/20"
+      },
+      "source": "Cross-checked: cricket.com.au, CrickTimes (T20I only; Test and ODI totals differ by date and are left out)"
+    }
+  },
+  {
+    "id": "p0026",
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "test": {
+        "matches": 73,
+        "wickets": 340,
+        "economy": 3.34,
+        "best_bowling": "7/112"
+      },
+      "odi": {
+        "matches": 106,
+        "wickets": 168,
+        "economy": 5.08,
+        "best_bowling": "6/16"
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com.au, cricket.com, TV9 (T20I left out: sources disagree)"
+    }
+  },
+  {
+    "id": "p0027",
+    "name": "Mitchell Marsh",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 49,
+        "runs": 1292,
+        "strike_rate": 142.9,
+        "highest": 117,
+        "hundreds": 1,
+        "fifties": 9,
+        "fours": 104,
+        "sixes": 75,
+        "bowl_innings": 34,
+        "wickets": 37,
+        "economy": 8.52,
+        "bowling_strike_rate": 15.1
+      }
+    }
+  },
+  {
+    "id": "p0028",
+    "name": "Phil Salt",
+    "country": "England",
+    "role": "Keeper",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 34,
+        "runs": 1056,
+        "strike_rate": 175.7,
+        "highest": 89,
+        "hundreds": 0,
+        "fifties": 10,
+        "fours": 122,
+        "sixes": 56,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0029",
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "role": "Keeper",
+    "category": "Marquee",
+    "pool": "IPL",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 115,
+        "runs": 3309,
+        "strike_rate": 134,
+        "highest": 140,
+        "hundreds": 2,
+        "fifties": 24,
+        "fours": 325,
+        "sixes": 134,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0030",
+    "name": "Ruturaj Gaikwad",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 70,
+        "runs": 2502,
+        "strike_rate": 137.5,
+        "highest": 108,
+        "hundreds": 2,
+        "fifties": 20,
+        "fours": 231,
+        "sixes": 95,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0031",
+    "name": "Shreyas Iyer",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "matches": 12,
+    "runs": 476,
+    "wickets": 0,
+    "average": 47.6,
+    "not_out": 0,
+    "balls": 12,
+    "catches": 5,
+    "highest": "88",
+    "birth_date": "6/12/94",
+    "formats": {
+      "ipl": {
+        "innings": 131,
+        "runs": 3731,
+        "strike_rate": 133.3,
+        "highest": 97,
+        "hundreds": 0,
+        "fifties": 27,
+        "fours": 314,
+        "sixes": 152,
+        "bowl_innings": 1,
+        "wickets": 0,
+        "economy": 7
+      }
+    }
+  },
+  {
+    "id": "p0032",
+    "name": "Axar Patel",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 123,
+        "runs": 1916,
+        "strike_rate": 134,
+        "highest": 66,
+        "hundreds": 0,
+        "fifties": 3,
+        "fours": 130,
+        "sixes": 94,
+        "bowl_innings": 160,
+        "wickets": 128,
+        "economy": 7.37,
+        "bowling_strike_rate": 25.9
+      }
+    }
+  },
+  {
+    "id": "p0033",
+    "name": "Yuzvendra Chahal",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "odi": {
+        "matches": 72,
+        "wickets": 121
+      },
+      "t20i": {
+        "matches": 80,
+        "wickets": 96,
+        "best_bowling": "6/25"
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com.au (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0034",
+    "name": "Varun Chakravarthy",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "odi": {
+        "matches": 4,
+        "wickets": 10
+      },
+      "source": "Cross-checked: Wikipedia, NewsBytes (ODI only; T20I totals differ and are left out)"
+    }
+  },
+  {
+    "id": "p0035",
+    "name": "Ravi Bishnoi",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0036",
+    "name": "Mohammed Siraj",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "test": {
+        "matches": 46,
+        "wickets": 140
+      },
+      "odi": {
+        "matches": 50,
+        "wickets": 76,
+        "best_bowling": "6/21"
+      },
+      "t20i": {
+        "matches": 17,
+        "wickets": 17,
+        "best_bowling": "4/17"
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com.au, crickettimes, cricket.com (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0037",
+    "name": "Arshdeep Singh",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0038",
+    "name": "Harshal Patel",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "t20i": {
+        "matches": 25,
+        "runs": 77,
+        "wickets": 29,
+        "economy": 9.18,
+        "best_bowling": "4/25"
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com.au, TV9 (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0039",
+    "name": "Deepak Chahar",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "odi": {
+        "matches": 13,
+        "runs": 203,
+        "wickets": 16,
+        "economy": 5.75
+      },
+      "t20i": {
+        "matches": 25,
+        "runs": 53,
+        "wickets": 31,
+        "best_bowling": "6/7"
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com, others (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0040",
+    "name": "Shivam Dube",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 75,
+        "runs": 1859,
+        "strike_rate": 143.7,
+        "highest": 95,
+        "hundreds": 0,
+        "fifties": 10,
+        "fours": 108,
+        "sixes": 122,
+        "bowl_innings": 15,
+        "wickets": 5,
+        "economy": 10.31,
+        "bowling_strike_rate": 24.8
+      }
+    }
+  },
+  {
+    "id": "p0041",
+    "name": "Tilak Varma",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 51,
+        "runs": 1499,
+        "strike_rate": 144.4,
+        "highest": 84,
+        "hundreds": 0,
+        "fifties": 8,
+        "fours": 113,
+        "sixes": 74,
+        "bowl_innings": 4,
+        "wickets": 0,
+        "economy": 7.64
+      }
+    }
+  },
+  {
+    "id": "p0042",
+    "name": "Abhishek Sharma",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 74,
+        "runs": 1816,
+        "strike_rate": 163,
+        "highest": 141,
+        "hundreds": 1,
+        "fifties": 9,
+        "fours": 174,
+        "sixes": 101,
+        "bowl_innings": 32,
+        "wickets": 11,
+        "economy": 8.95,
+        "bowling_strike_rate": 30.5
+      }
+    }
+  },
+  {
+    "id": "p0043",
+    "name": "Nitish Kumar Reddy",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "test": {
+        "runs": 396,
+        "wickets": 8
+      },
+      "odi": {
+        "matches": 4,
+        "wickets": 0
+      },
+      "t20i": {
+        "matches": 4,
+        "runs": 90,
+        "wickets": 3
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com.au, NewsBytes, BCCI (agreeing values only; Test match count differs and is left out)"
+    }
+  },
+  {
+    "id": "p0044",
+    "name": "Ishan Kishan",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 112,
+        "runs": 2998,
+        "strike_rate": 137.6,
+        "highest": 106,
+        "hundreds": 1,
+        "fifties": 17,
+        "fours": 288,
+        "sixes": 134,
+        "bowl_innings": 1,
+        "wickets": 0,
+        "economy": 24
+      }
+    }
+  },
+  {
+    "id": "p0045",
+    "name": "Devdutt Padikkal",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 74,
+        "runs": 1806,
+        "strike_rate": 126.3,
+        "highest": 101,
+        "hundreds": 1,
+        "fifties": 11,
+        "fours": 190,
+        "sixes": 56,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0046",
+    "name": "Ayush Badoni",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 46,
+        "runs": 963,
+        "strike_rate": 138.6,
+        "highest": 74,
+        "hundreds": 0,
+        "fifties": 6,
+        "fours": 73,
+        "sixes": 38,
+        "bowl_innings": 7,
+        "wickets": 4,
+        "economy": 8.4,
+        "bowling_strike_rate": 8.8
+      }
+    }
+  },
+  {
+    "id": "p0047",
+    "name": "Ashutosh Sharma",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0048",
+    "name": "Jitesh Sharma",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "t20i": {
+        "matches": 16,
+        "runs": 162,
+        "batting_average": 18,
+        "highest": "35"
+      },
+      "source": "Cross-checked: Wikipedia, TV9 (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0049",
+    "name": "Shardul Thakur",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "test": {
+        "matches": 13,
+        "runs": 377,
+        "batting_average": 18.85,
+        "highest": "67",
+        "fifties": 4,
+        "wickets": 31,
+        "economy": 3.64,
+        "five_wickets": 1
+      },
+      "odi": {
+        "matches": 47,
+        "runs": 329,
+        "wickets": 65,
+        "bowling_average": 30.98,
+        "economy": 6.22,
+        "best_bowling": "4/37"
+      },
+      "t20i": {
+        "matches": 25,
+        "runs": 69,
+        "wickets": 33,
+        "bowling_average": 23.39,
+        "economy": 9.15
+      },
+      "source": "Cross-checked: cricket.com, wisden.com, tv9 profile, Wikipedia (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0050",
+    "name": "Umesh Yadav",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "matches": 75,
+    "runs": 79,
+    "wickets": 106,
+    "average": 7.9,
+    "not_out": 14,
+    "balls": 3558,
+    "catches": 22,
+    "highest": "18*",
+    "birth_date": "25/10/87"
+  },
+  {
+    "id": "p0051",
+    "name": "Venkatesh Iyer",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 56,
+        "runs": 1468,
+        "strike_rate": 137.3,
+        "highest": 104,
+        "hundreds": 1,
+        "fifties": 12,
+        "fours": 136,
+        "sixes": 65,
+        "bowl_innings": 9,
+        "wickets": 3,
+        "economy": 10.59,
+        "bowling_strike_rate": 27
+      }
+    }
+  },
+  {
+    "id": "p0052",
+    "name": "Rinku Singh",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 51,
+        "runs": 1099,
+        "strike_rate": 145.2,
+        "highest": 67,
+        "hundreds": 0,
+        "fifties": 4,
+        "fours": 87,
+        "sixes": 56,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0053",
+    "name": "Khaleel Ahmed",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "odi": {
+        "matches": 11,
+        "wickets": 15
+      },
+      "source": "Cross-checked: Wikipedia, ESPNcricinfo (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0054",
+    "name": "Wanindu Hasaranga",
+    "country": "Sri Lanka",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "test": {
+        "matches": 4,
+        "runs": 196,
+        "wickets": 4
+      },
+      "odi": {
+        "matches": 71,
+        "runs": 1142,
+        "wickets": 113
+      },
+      "t20i": {
+        "matches": 98,
+        "runs": 831,
+        "wickets": 161
+      },
+      "source": "Cross-checked: Wikipedia, CrickTimes, NewsBytes (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0055",
+    "name": "Matheesha Pathirana",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "odi": {
+        "matches": 12,
+        "wickets": 17,
+        "economy": 7.27
+      },
+      "t20i": {
+        "wickets": 31
+      },
+      "source": "Cross-checked: Wikipedia, CrickTimes, ESPNcricinfo, TrillerTV (agreeing values only; T20I match count differs and is left out)"
+    }
+  },
+  {
+    "id": "p0056",
+    "name": "Noor Ahmad",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0057",
+    "name": "Azmatullah Omarzai",
+    "country": "Afghanistan",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "odi": {
+        "wickets": 44
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com.au (ODI wickets only; other totals differ by source)"
+    }
+  },
+  {
+    "id": "p0058",
+    "name": "Tim David",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 44,
+        "runs": 846,
+        "strike_rate": 173.4,
+        "highest": 50,
+        "hundreds": 0,
+        "fifties": 1,
+        "fours": 54,
+        "sixes": 60,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0059",
+    "name": "Josh Hazlewood",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "test": {
+        "matches": 76,
+        "wickets": 295
+      },
+      "odi": {
+        "wickets": 142
+      },
+      "t20i": {
+        "matches": 60,
+        "wickets": 79,
+        "economy": 7.48
+      },
+      "source": "Cross-checked: cricket.com.au, Wisden, IPLT20, Wikipedia (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0060",
+    "name": "Adam Zampa",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "odi": {
+        "matches": 127,
+        "wickets": 207
+      },
+      "t20i": {
+        "matches": 118,
+        "wickets": 153,
+        "economy": 7.35
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com.au, CrickTimes (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0061",
+    "name": "Jake Fraser-McGurk",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "odi": {
+        "matches": 7,
+        "runs": 98
+      },
+      "t20i": {
+        "matches": 8,
+        "runs": 115,
+        "highest": "50"
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com.au, ESPNcricinfo, Outlook India (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0062",
+    "name": "Liam Livingstone",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 47,
+        "runs": 1051,
+        "strike_rate": 158.8,
+        "highest": 94,
+        "hundreds": 0,
+        "fifties": 7,
+        "fours": 70,
+        "sixes": 75,
+        "bowl_innings": 27,
+        "wickets": 13,
+        "economy": 9.02,
+        "bowling_strike_rate": 24
+      }
+    }
+  },
+  {
+    "id": "p0063",
+    "name": "Sam Curran",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 53,
+        "runs": 997,
+        "strike_rate": 136.4,
+        "highest": 88,
+        "hundreds": 0,
+        "fifties": 6,
+        "fours": 85,
+        "sixes": 41,
+        "bowl_innings": 63,
+        "wickets": 59,
+        "economy": 9.74,
+        "bowling_strike_rate": 21.2
+      }
+    }
+  },
+  {
+    "id": "p0064",
+    "name": "Will Jacks",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0065",
+    "name": "Jacob Bethell",
+    "country": "England",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "test": {
+        "matches": 9,
+        "runs": 579,
+        "batting_average": 34.05,
+        "best_bowling": "4/75"
+      },
+      "odi": {
+        "matches": 24,
+        "runs": 712,
+        "batting_average": 33.9,
+        "wickets": 9,
+        "bowling_average": 47.77
+      },
+      "t20i": {
+        "matches": 36,
+        "runs": 786,
+        "batting_average": 30.23,
+        "wickets": 8,
+        "bowling_average": 16.87,
+        "economy": 8.7,
+        "best_bowling": "4/11"
+      },
+      "source": "Cross-checked: Wikipedia, cricket.com.au, mykhel, khelnow (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0066",
+    "name": "Tristan Stubbs",
+    "country": "South Africa",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 30,
+        "runs": 705,
+        "strike_rate": 163.2,
+        "highest": 71,
+        "hundreds": 0,
+        "fifties": 3,
+        "fours": 51,
+        "sixes": 37,
+        "bowl_innings": 5,
+        "wickets": 4,
+        "economy": 11.5,
+        "bowling_strike_rate": 9
+      }
+    }
+  },
+  {
+    "id": "p0067",
+    "name": "Marco Jansen",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0068",
+    "name": "Dewald Brevis",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0069",
+    "name": "Lockie Ferguson",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0070",
+    "name": "Rachin Ravindra",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0071",
+    "name": "Rovman Powell",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0072",
+    "name": "Vaibhav Suryavanshi",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0073",
+    "name": "Priyansh Arya",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0074",
+    "name": "Nehal Wadhera",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0075",
+    "name": "Angkrish Raghuvanshi",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0076",
+    "name": "Sai Sudharsan",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25,
+    "formats": {
+      "ipl": {
+        "innings": 40,
+        "runs": 1793,
+        "strike_rate": 145.9,
+        "highest": 108,
+        "hundreds": 2,
+        "fifties": 12,
+        "fours": 183,
+        "sixes": 52,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0077",
+    "name": "Sameer Rizvi",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0078",
+    "name": "Ashwani Kumar",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0079",
+    "name": "Mukesh Kumar",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0080",
+    "name": "Kartik Tyagi",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0081",
+    "name": "Suyash Sharma",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0082",
+    "name": "Digvesh Rathi",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0083",
+    "name": "Manav Suthar",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0084",
+    "name": "Harsh Dubey",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0085",
+    "name": "Abdul Samad",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25,
+    "formats": {
+      "ipl": {
+        "innings": 51,
+        "runs": 741,
+        "strike_rate": 151.8,
+        "highest": 45,
+        "hundreds": 0,
+        "fifties": 0,
+        "fours": 45,
+        "sixes": 50,
+        "bowl_innings": 6,
+        "wickets": 2,
+        "economy": 12.75,
+        "bowling_strike_rate": 28
+      }
+    }
+  },
+  {
+    "id": "p0086",
+    "name": "Vipraj Nigam",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0087",
+    "name": "Akash Deep",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0088",
+    "name": "Yash Dayal",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0089",
+    "name": "Musheer Khan",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0090",
+    "name": "Anshul Kamboj",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0091",
+    "name": "Nitish Rana",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25,
+    "formats": {
+      "ipl": {
+        "innings": 112,
+        "runs": 2853,
+        "strike_rate": 136.8,
+        "highest": 87,
+        "hundreds": 0,
+        "fifties": 20,
+        "fours": 261,
+        "sixes": 141,
+        "bowl_innings": 26,
+        "wickets": 10,
+        "economy": 8.44,
+        "bowling_strike_rate": 19.2
+      }
+    }
+  },
+  {
+    "id": "p0092",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "International",
+    "basePrice": 100
+  },
+  {
+    "id": "p0093",
+    "name": "Mohammad Rizwan",
+    "country": "Pakistan",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0094",
+    "name": "Shaheen Shah Afridi",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0095",
+    "name": "Haris Rauf",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0096",
+    "name": "Naseem Shah",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0097",
+    "name": "Shadab Khan",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0098",
+    "name": "Fakhar Zaman",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0100",
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Marquee",
+    "pool": "International",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 43,
+        "runs": 935,
+        "strike_rate": 134,
+        "highest": 107,
+        "hundreds": 2,
+        "fifties": 2,
+        "fours": 81,
+        "sixes": 32,
+        "bowl_innings": 38,
+        "wickets": 28,
+        "economy": 8.64,
+        "bowling_strike_rate": 24.6
+      }
+    }
+  },
+  {
+    "id": "p0101",
+    "name": "Joe Root",
+    "country": "England",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "International",
+    "basePrice": 100,
+    "formats": {
+      "t20i": {
+        "matches": 32,
+        "runs": 893,
+        "batting_average": 35.72,
+        "wickets": 6,
+        "economy": 9.92
+      },
+      "source": "Cross-checked: cricket.com, cricket.com.au (T20I only; Test and ODI totals differ by update date and are left out)"
+    }
+  },
+  {
+    "id": "p0102",
+    "name": "Jofra Archer",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0103",
+    "name": "Mark Wood",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0104",
+    "name": "Adil Rashid",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0105",
+    "name": "Jonny Bairstow",
+    "country": "England",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 52,
+        "runs": 1674,
+        "strike_rate": 146.1,
+        "highest": 114,
+        "hundreds": 2,
+        "fifties": 9,
+        "fours": 173,
+        "sixes": 74,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0106",
+    "name": "Harry Brook",
+    "country": "England",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0107",
+    "name": "Ben Duckett",
+    "country": "England",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0109",
+    "name": "Ollie Pope",
+    "country": "England",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0110",
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "International",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 76,
+        "runs": 2128,
+        "strike_rate": 125.6,
+        "highest": 89,
+        "hundreds": 0,
+        "fifties": 18,
+        "fours": 185,
+        "sixes": 64,
+        "bowl_innings": 2,
+        "wickets": 0,
+        "economy": 10.33
+      }
+    }
+  },
+  {
+    "id": "p0111",
+    "name": "Daryl Mitchell",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0112",
+    "name": "Devon Conway",
+    "country": "New Zealand",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 28,
+        "runs": 1080,
+        "strike_rate": 139.7,
+        "highest": 92,
+        "hundreds": 0,
+        "fifties": 11,
+        "fours": 116,
+        "sixes": 34,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0113",
+    "name": "Matt Henry",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0114",
+    "name": "Tim Southee",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0115",
+    "name": "Mitchell Santner",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0118",
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "International",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 93,
+        "runs": 2485,
+        "strike_rate": 128.1,
+        "highest": 101,
+        "hundreds": 1,
+        "fifties": 11,
+        "fours": 225,
+        "sixes": 60,
+        "bowl_innings": 1,
+        "wickets": 0,
+        "economy": 15
+      }
+    }
+  },
+  {
+    "id": "p0119",
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "International",
+    "basePrice": 100,
+    "formats": {
+      "test": {
+        "matches": 112,
+        "runs": 8786,
+        "batting_average": 44.59,
+        "highest": "335",
+        "hundreds": 26,
+        "fifties": 37
+      },
+      "odi": {
+        "matches": 161,
+        "runs": 6932,
+        "batting_average": 45.3,
+        "highest": "179",
+        "hundreds": 22,
+        "fifties": 33
+      },
+      "source": "Cross-checked: Wikipedia, CrickTimes, cricket.com.au, press reports (T20I left out: sources disagree)"
+    }
+  },
+  {
+    "id": "p0120",
+    "name": "Marnus Labuschagne",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0121",
+    "name": "Usman Khawaja",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0122",
+    "name": "Nathan Lyon",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0123",
+    "name": "Cameron Green",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Marquee",
+    "pool": "International",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 28,
+        "runs": 707,
+        "strike_rate": 153.7,
+        "highest": 100,
+        "hundreds": 1,
+        "fifties": 2,
+        "fours": 62,
+        "sixes": 32,
+        "bowl_innings": 29,
+        "wickets": 16,
+        "economy": 9.08,
+        "bowling_strike_rate": 27.4
+      }
+    }
+  },
+  {
+    "id": "p0125",
+    "name": "Aiden Markram",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 55,
+        "runs": 1440,
+        "strike_rate": 135.1,
+        "highest": 68,
+        "hundreds": 0,
+        "fifties": 10,
+        "fours": 111,
+        "sixes": 57,
+        "bowl_innings": 19,
+        "wickets": 6,
+        "economy": 8.79,
+        "bowling_strike_rate": 31.2
+      }
+    }
+  },
+  {
+    "id": "p0126",
+    "name": "Temba Bavuma",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0127",
+    "name": "Anrich Nortje",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0128",
+    "name": "Lungi Ngidi",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0135",
+    "name": "Jason Holder",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0136",
+    "name": "Alzarri Joseph",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0137",
+    "name": "Shai Hope",
+    "country": "West Indies",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0138",
+    "name": "Shimron Hetmyer",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 78,
+        "runs": 1482,
+        "strike_rate": 151.8,
+        "highest": 75,
+        "hundreds": 0,
+        "fifties": 5,
+        "fours": 93,
+        "sixes": 93,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0140",
+    "name": "Mujeeb Ur Rahman",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0142",
+    "name": "Dasun Shanaka",
+    "country": "Sri Lanka",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0143",
+    "name": "Pathum Nissanka",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0144",
+    "name": "Kusal Mendis",
+    "country": "Sri Lanka",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0148",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 52,
+        "runs": 793,
+        "strike_rate": 124.5,
+        "highest": 66,
+        "hundreds": 0,
+        "fifties": 2,
+        "fours": 73,
+        "sixes": 21,
+        "bowl_innings": 70,
+        "wickets": 63,
+        "economy": 7.44,
+        "bowling_strike_rate": 23.6
+      }
+    }
+  },
+  {
+    "id": "p0149",
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0150",
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0151",
+    "name": "Cheteshwar Pujara",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0152",
+    "name": "Ajinkya Rahane",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 183,
+        "runs": 5032,
+        "strike_rate": 125,
+        "highest": 105,
+        "hundreds": 2,
+        "fifties": 33,
+        "fours": 514,
+        "sixes": 123,
+        "bowl_innings": 1,
+        "wickets": 1,
+        "economy": 5,
+        "bowling_strike_rate": 6
+      }
+    }
+  },
+  {
+    "id": "p0153",
+    "name": "Ravichandran Ashwin",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50,
+    "matches": 111,
+    "runs": 675,
+    "wickets": 150,
+    "average": 16.07,
+    "hundreds": 0,
+    "fifties": 1,
+    "not_out": 19,
+    "balls": 6021,
+    "catches": 30,
+    "highest": "65",
+    "birth_date": "17/9/86",
+    "formats": {
+      "ipl": {
+        "innings": 93,
+        "runs": 833,
+        "strike_rate": 118.2,
+        "highest": 50,
+        "hundreds": 0,
+        "fifties": 1,
+        "fours": 64,
+        "sixes": 29,
+        "bowl_innings": 217,
+        "wickets": 187,
+        "economy": 7.2,
+        "bowling_strike_rate": 25.2
+      }
+    }
+  },
+  {
+    "id": "p0166",
+    "name": "Sachin Tendulkar",
+    "country": "India",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 78,
+        "runs": 2334,
+        "strike_rate": 119.8,
+        "highest": 100,
+        "hundreds": 1,
+        "fifties": 13,
+        "fours": 295,
+        "sixes": 29,
+        "bowl_innings": 4,
+        "wickets": 0,
+        "economy": 9.67
+      }
+    }
+  },
+  {
+    "id": "p0167",
+    "name": "Rahul Dravid",
+    "country": "India",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 82,
+        "runs": 2174,
+        "strike_rate": 115.5,
+        "highest": 75,
+        "hundreds": 0,
+        "fifties": 11,
+        "fours": 268,
+        "sixes": 28,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0168",
+    "name": "Virender Sehwag",
+    "country": "India",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 104,
+        "runs": 2728,
+        "strike_rate": 155.4,
+        "highest": 122,
+        "hundreds": 2,
+        "fifties": 16,
+        "fours": 334,
+        "sixes": 106,
+        "bowl_innings": 15,
+        "wickets": 6,
+        "economy": 10.37,
+        "bowling_strike_rate": 22.7
+      }
+    }
+  },
+  {
+    "id": "p0169",
+    "name": "VVS Laxman",
+    "country": "India",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0170",
+    "name": "Anil Kumble",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0171",
+    "name": "Yuvraj Singh",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 126,
+        "runs": 2750,
+        "strike_rate": 129.7,
+        "highest": 83,
+        "hundreds": 0,
+        "fifties": 13,
+        "fours": 217,
+        "sixes": 149,
+        "bowl_innings": 73,
+        "wickets": 36,
+        "economy": 7.44,
+        "bowling_strike_rate": 24.1
+      }
+    }
+  },
+  {
+    "id": "p0172",
+    "name": "Gautam Gambhir",
+    "country": "India",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 151,
+        "runs": 4217,
+        "strike_rate": 123.9,
+        "highest": 93,
+        "hundreds": 0,
+        "fifties": 36,
+        "fours": 492,
+        "sixes": 59,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0173",
+    "name": "Harbhajan Singh",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 88,
+        "runs": 833,
+        "strike_rate": 137.9,
+        "highest": 64,
+        "hundreds": 0,
+        "fifties": 1,
+        "fours": 79,
+        "sixes": 42,
+        "bowl_innings": 160,
+        "wickets": 150,
+        "economy": 7.08,
+        "bowling_strike_rate": 22.8
+      }
+    }
+  },
+  {
+    "id": "p0174",
+    "name": "Zaheer Khan",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0175",
+    "name": "Suresh Raina",
+    "country": "India",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 200,
+        "runs": 5528,
+        "strike_rate": 136.7,
+        "highest": 100,
+        "hundreds": 1,
+        "fifties": 39,
+        "fours": 506,
+        "sixes": 203,
+        "bowl_innings": 69,
+        "wickets": 25,
+        "economy": 7.39,
+        "bowling_strike_rate": 36.3
+      }
+    }
+  },
+  {
+    "id": "p0176",
+    "name": "Ricky Ponting",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0177",
+    "name": "Adam Gilchrist",
+    "country": "Australia",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 80,
+        "runs": 2069,
+        "strike_rate": 138.4,
+        "highest": 109,
+        "hundreds": 2,
+        "fifties": 11,
+        "fours": 239,
+        "sixes": 92,
+        "bowl_innings": 1,
+        "wickets": 1,
+        "economy": 0,
+        "bowling_strike_rate": 1
+      }
+    }
+  },
+  {
+    "id": "p0178",
+    "name": "Shane Warne",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0179",
+    "name": "Glenn McGrath",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0180",
+    "name": "Steve Waugh",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0181",
+    "name": "Michael Clarke",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0182",
+    "name": "Shane Watson",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 141,
+        "runs": 3874,
+        "strike_rate": 137.9,
+        "highest": 117,
+        "hundreds": 4,
+        "fifties": 21,
+        "fours": 376,
+        "sixes": 190,
+        "bowl_innings": 105,
+        "wickets": 92,
+        "economy": 7.93,
+        "bowling_strike_rate": 22.1
+      }
+    }
+  },
+  {
+    "id": "p0183",
+    "name": "Brian Lara",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0184",
+    "name": "Chris Gayle",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 141,
+        "runs": 4965,
+        "strike_rate": 149,
+        "highest": 175,
+        "hundreds": 6,
+        "fifties": 31,
+        "fours": 404,
+        "sixes": 357,
+        "bowl_innings": 38,
+        "wickets": 18,
+        "economy": 7.9,
+        "bowling_strike_rate": 30.8
+      }
+    }
+  },
+  {
+    "id": "p0185",
+    "name": "Kieron Pollard",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 168,
+        "runs": 3412,
+        "strike_rate": 147.3,
+        "highest": 87,
+        "hundreds": 0,
+        "fifties": 16,
+        "fours": 218,
+        "sixes": 223,
+        "bowl_innings": 107,
+        "wickets": 69,
+        "economy": 8.79,
+        "bowling_strike_rate": 21.6
+      }
+    }
+  },
+  {
+    "id": "p0186",
+    "name": "Dwayne Bravo",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 110,
+        "runs": 1560,
+        "strike_rate": 129.6,
+        "highest": 70,
+        "hundreds": 0,
+        "fifties": 5,
+        "fours": 120,
+        "sixes": 66,
+        "bowl_innings": 158,
+        "wickets": 183,
+        "economy": 8.38,
+        "bowling_strike_rate": 17
+      }
+    }
+  },
+  {
+    "id": "p0187",
+    "name": "Jacques Kallis",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 95,
+        "runs": 2427,
+        "strike_rate": 109.2,
+        "highest": 89,
+        "hundreds": 0,
+        "fifties": 17,
+        "fours": 255,
+        "sixes": 44,
+        "bowl_innings": 89,
+        "wickets": 65,
+        "economy": 7.9,
+        "bowling_strike_rate": 26.8
+      }
+    }
+  },
+  {
+    "id": "p0188",
+    "name": "AB de Villiers",
+    "country": "South Africa",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 170,
+        "runs": 5162,
+        "strike_rate": 151.7,
+        "highest": 133,
+        "hundreds": 3,
+        "fifties": 40,
+        "fours": 413,
+        "sixes": 251,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0189",
+    "name": "Dale Steyn",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0190",
+    "name": "Shaun Pollock",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0191",
+    "name": "Muttiah Muralitharan",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0192",
+    "name": "Kumar Sangakkara",
+    "country": "Sri Lanka",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 68,
+        "runs": 1687,
+        "strike_rate": 121.2,
+        "highest": 94,
+        "hundreds": 0,
+        "fifties": 10,
+        "fours": 195,
+        "sixes": 27,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0193",
+    "name": "Mahela Jayawardene",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 78,
+        "runs": 1802,
+        "strike_rate": 123.3,
+        "highest": 110,
+        "hundreds": 1,
+        "fifties": 10,
+        "fours": 200,
+        "sixes": 39,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0194",
+    "name": "Sanath Jayasuriya",
+    "country": "Sri Lanka",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 30,
+        "runs": 768,
+        "strike_rate": 144.4,
+        "highest": 114,
+        "hundreds": 1,
+        "fifties": 4,
+        "fours": 84,
+        "sixes": 39,
+        "bowl_innings": 21,
+        "wickets": 13,
+        "economy": 7.96,
+        "bowling_strike_rate": 22.6
+      }
+    }
+  },
+  {
+    "id": "p0195",
+    "name": "Lasith Malinga",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0196",
+    "name": "Wasim Akram",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0197",
+    "name": "Waqar Younis",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0198",
+    "name": "Shahid Afridi",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0199",
+    "name": "Inzamam-ul-Haq",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0200",
+    "name": "Andrew Flintoff",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0201",
+    "name": "Kevin Pietersen",
+    "country": "England",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 36,
+        "runs": 1001,
+        "strike_rate": 134.7,
+        "highest": 103,
+        "hundreds": 1,
+        "fifties": 4,
+        "fours": 91,
+        "sixes": 40,
+        "bowl_innings": 13,
+        "wickets": 7,
+        "economy": 7.41,
+        "bowling_strike_rate": 24.9
+      }
+    }
+  },
+  {
+    "id": "p0202",
+    "name": "Brendon McCullum",
+    "country": "New Zealand",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 109,
+        "runs": 2880,
+        "strike_rate": 131.7,
+        "highest": 158,
+        "hundreds": 2,
+        "fifties": 13,
+        "fours": 293,
+        "sixes": 130,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0203",
+    "name": "Daniel Vettori",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0204",
+    "name": "Prasidh Krishna",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "test": {
+        "matches": 7,
+        "wickets": 25
+      },
+      "odi": {
+        "matches": 28,
+        "wickets": 50
+      },
+      "t20i": {
+        "matches": 8,
+        "wickets": 9
+      },
+      "source": "Cross-checked: Wikipedia, CrickTimes (agreeing values only)"
+    }
+  },
+  {
+    "id": "p0205",
+    "name": "Umran Malik",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0206",
+    "name": "Avesh Khan",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0207",
+    "name": "Mohsin Khan",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0208",
+    "name": "Shahbaz Ahmed",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0209",
+    "name": "Krunal Pandya",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 114,
+        "runs": 1756,
+        "strike_rate": 132.4,
+        "highest": 86,
+        "hundreds": 0,
+        "fifties": 2,
+        "fours": 153,
+        "sixes": 65,
+        "bowl_innings": 132,
+        "wickets": 93,
+        "economy": 7.47,
+        "bowling_strike_rate": 25.8
+      }
+    }
+  },
+  {
+    "id": "p0210",
+    "name": "Washington Sundar",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0211",
+    "name": "Deepak Hooda",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 101,
+        "runs": 1496,
+        "strike_rate": 127.6,
+        "highest": 64,
+        "hundreds": 0,
+        "fifties": 8,
+        "fours": 98,
+        "sixes": 62,
+        "bowl_innings": 34,
+        "wickets": 10,
+        "economy": 8.64,
+        "bowling_strike_rate": 37.9
+      }
+    }
+  },
+  {
+    "id": "p0212",
+    "name": "Krishnappa Gowtham",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0213",
+    "name": "Sai Kishore",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0214",
+    "name": "Dinesh Karthik",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 233,
+        "runs": 4842,
+        "strike_rate": 135.4,
+        "highest": 97,
+        "hundreds": 0,
+        "fifties": 22,
+        "fours": 466,
+        "sixes": 161,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0215",
+    "name": "Wriddhiman Saha",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 143,
+        "runs": 2934,
+        "strike_rate": 127.6,
+        "highest": 115,
+        "hundreds": 1,
+        "fifties": 13,
+        "fours": 296,
+        "sixes": 87,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0216",
+    "name": "Faf du Plessis",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "International",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 147,
+        "runs": 4773,
+        "strike_rate": 135.8,
+        "highest": 96,
+        "hundreds": 0,
+        "fifties": 39,
+        "fours": 439,
+        "sixes": 174,
+        "bowl_innings": 1,
+        "wickets": 0,
+        "economy": 16
+      }
+    }
+  },
+  {
+    "id": "p0217",
+    "name": "Glenn Phillips",
+    "country": "New Zealand",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0218",
+    "name": "Rahmanullah Gurbaz",
+    "country": "Afghanistan",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0219",
+    "name": "Jason Roy",
+    "country": "England",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0220",
+    "name": "Chris Woakes",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0221",
+    "name": "Chris Jordan",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0222",
+    "name": "Josh Inglis",
+    "country": "Australia",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0223",
+    "name": "Kyle Jamieson",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0225",
+    "name": "Jaydev Unadkat",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0226",
+    "name": "Sandeep Sharma",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0227",
+    "name": "T Natarajan",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0228",
+    "name": "Shivam Mavi",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0229",
+    "name": "Rahul Chahar",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0230",
+    "name": "Piyush Chawla",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 86,
+        "runs": 624,
+        "strike_rate": 110.8,
+        "highest": 24,
+        "hundreds": 0,
+        "fifties": 0,
+        "fours": 56,
+        "sixes": 20,
+        "bowl_innings": 191,
+        "wickets": 192,
+        "economy": 7.96,
+        "bowling_strike_rate": 20.1
+      }
+    }
+  },
+  {
+    "id": "p0231",
+    "name": "Amit Mishra",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0232",
+    "name": "Kedar Jadhav",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0233",
+    "name": "Manish Pandey",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 160,
+        "runs": 3942,
+        "strike_rate": 121.5,
+        "highest": 114,
+        "hundreds": 1,
+        "fifties": 22,
+        "fours": 340,
+        "sixes": 115,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0234",
+    "name": "Ambati Rayudu",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "matches": 55,
+    "runs": 1694,
+    "wickets": 3,
+    "average": 47.05,
+    "hundreds": 3,
+    "fifties": 10,
+    "not_out": 14,
+    "balls": 121,
+    "catches": 17,
+    "highest": "124*",
+    "birth_date": "23/9/85"
+  },
+  {
+    "id": "p0235",
+    "name": "Bhuvneshwar Kumar",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "matches": 114,
+    "runs": 526,
+    "wickets": 132,
+    "average": 14.21,
+    "hundreds": 0,
+    "fifties": 1,
+    "not_out": 15,
+    "balls": 5451,
+    "catches": 27,
+    "highest": "53*",
+    "birth_date": "5/2/90"
+  },
+  {
+    "id": "p0236",
+    "name": "Ishant Sharma",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0237",
+    "name": "Hanuma Vihari",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0238",
+    "name": "Karun Nair",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 76,
+        "runs": 1694,
+        "strike_rate": 131.7,
+        "highest": 89,
+        "hundreds": 0,
+        "fifties": 11,
+        "fours": 185,
+        "sixes": 49,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0239",
+    "name": "Yusuf Pathan",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 153,
+        "runs": 3204,
+        "strike_rate": 143,
+        "highest": 100,
+        "hundreds": 1,
+        "fifties": 13,
+        "fours": 262,
+        "sixes": 158,
+        "bowl_innings": 82,
+        "wickets": 42,
+        "economy": 7.4,
+        "bowling_strike_rate": 27.3
+      }
+    }
+  },
+  {
+    "id": "p0240",
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0241",
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0242",
+    "name": "Mahmudullah",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0244",
+    "name": "Mohammad Nabi",
+    "country": "Afghanistan",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0247",
+    "name": "Sikandar Raza",
+    "country": "Zimbabwe",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0250",
+    "name": "Morne Morkel",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0251",
+    "name": "Mohammad Amir",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0252",
+    "name": "Shoaib Akhtar",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0253",
+    "name": "Mohammad Yousuf",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0254",
+    "name": "Younis Khan",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0255",
+    "name": "Saqlain Mushtaq",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0256",
+    "name": "Ajantha Mendis",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0257",
+    "name": "Tillakaratne Dilshan",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0258",
+    "name": "Chaminda Vaas",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0259",
+    "name": "Mitchell Johnson",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0260",
+    "name": "Brett Lee",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0261",
+    "name": "Matthew Hayden",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0262",
+    "name": "Andrew Symonds",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 36,
+        "runs": 974,
+        "strike_rate": 129.9,
+        "highest": 117,
+        "hundreds": 1,
+        "fifties": 5,
+        "fours": 74,
+        "sixes": 41,
+        "bowl_innings": 30,
+        "wickets": 20,
+        "economy": 7.67,
+        "bowling_strike_rate": 26.4
+      }
+    }
+  },
+  {
+    "id": "p0263",
+    "name": "Chris Cairns",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0264",
+    "name": "Stephen Fleming",
+    "country": "New Zealand",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0265",
+    "name": "Ross Taylor",
+    "country": "New Zealand",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0266",
+    "name": "Martin Guptill",
+    "country": "New Zealand",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0267",
+    "name": "James Anderson",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0268",
+    "name": "Stuart Broad",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0269",
+    "name": "Graeme Swann",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0270",
+    "name": "Eoin Morgan",
+    "country": "England",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 74,
+        "runs": 1405,
+        "strike_rate": 122.6,
+        "highest": 68,
+        "hundreds": 0,
+        "fifties": 5,
+        "fours": 112,
+        "sixes": 64,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0271",
+    "name": "Alastair Cook",
+    "country": "England",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0272",
+    "name": "Andrew Strauss",
+    "country": "England",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0273",
+    "name": "Curtly Ambrose",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0274",
+    "name": "Courtney Walsh",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0275",
+    "name": "Hashim Amla",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0276",
+    "name": "Graeme Smith",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0277",
+    "name": "Makhaya Ntini",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0278",
+    "name": "Herschelle Gibbs",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0279",
+    "name": "Sourav Ganguly",
+    "country": "India",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 56,
+        "runs": 1349,
+        "strike_rate": 106.8,
+        "highest": 91,
+        "hundreds": 0,
+        "fifties": 7,
+        "fours": 137,
+        "sixes": 42,
+        "bowl_innings": 20,
+        "wickets": 10,
+        "economy": 7.89,
+        "bowling_strike_rate": 27.6
+      }
+    }
+  },
+  {
+    "id": "p0280",
+    "name": "Ajit Agarkar",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0281",
+    "name": "Irfan Pathan",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 82,
+        "runs": 1139,
+        "strike_rate": 120.4,
+        "highest": 60,
+        "hundreds": 0,
+        "fifties": 1,
+        "fours": 87,
+        "sixes": 37,
+        "bowl_innings": 101,
+        "wickets": 80,
+        "economy": 7.78,
+        "bowling_strike_rate": 25.5
+      }
+    }
+  },
+  {
+    "id": "p0282",
+    "name": "Parthiv Patel",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0283",
+    "name": "Murali Vijay",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0284",
+    "name": "Shikhar Dhawan",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50,
+    "matches": 133,
+    "runs": 5518,
+    "wickets": 0,
+    "average": 44.5,
+    "hundreds": 17,
+    "fifties": 27,
+    "not_out": 7,
+    "balls": 0,
+    "catches": 7,
+    "highest": "143",
+    "birth_date": "5/12/85"
+  },
+  {
+    "id": "p0285",
+    "name": "Prithvi Shaw",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0286",
+    "name": "Rahul Tewatia",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0287",
+    "name": "Vijay Shankar",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0288",
+    "name": "Sarfaraz Khan",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0289",
+    "name": "Dhruv Jurel",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0290",
+    "name": "Riyan Parag",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 72,
+        "runs": 1566,
+        "strike_rate": 141.8,
+        "highest": 95,
+        "hundreds": 0,
+        "fifties": 7,
+        "fours": 111,
+        "sixes": 87,
+        "bowl_innings": 30,
+        "wickets": 7,
+        "economy": 9.7,
+        "bowling_strike_rate": 42.1
+      }
+    }
+  },
+  {
+    "id": "p0291",
+    "name": "Harshit Rana",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0292",
+    "name": "Abhimanyu Easwaran",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "Test",
+    "basePrice": 25
+  },
+  {
+    "id": "p0293",
+    "name": "Rajat Patidar",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0294",
+    "name": "Mayank Yadav",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0295",
+    "name": "Tanush Kotian",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "Test",
+    "basePrice": 25
+  },
+  {
+    "id": "p0296",
+    "name": "Chetan Sakariya",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0297",
+    "name": "Akash Madhwal",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0298",
+    "name": "Naman Dhir",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0299",
+    "name": "KS Bharat",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Uncapped",
+    "pool": "Test",
+    "basePrice": 25
+  },
+  {
+    "id": "p0300",
+    "name": "Mayank Agarwal",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 125,
+        "runs": 2756,
+        "strike_rate": 133.5,
+        "highest": 106,
+        "hundreds": 1,
+        "fifties": 13,
+        "fours": 273,
+        "sixes": 100,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0301",
+    "name": "Navdeep Saini",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0302",
+    "name": "Ashwin Hebbar",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "Test",
+    "basePrice": 25
+  },
+  {
+    "id": "p0305",
+    "name": "Wiaan Mulder",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0306",
+    "name": "Corbin Bosch",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0309",
+    "name": "David Miller",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Marquee",
+    "pool": "International",
+    "basePrice": 100,
+    "formats": {
+      "ipl": {
+        "innings": 133,
+        "runs": 3077,
+        "strike_rate": 138.6,
+        "highest": 101,
+        "hundreds": 1,
+        "fifties": 13,
+        "fours": 220,
+        "sixes": 138,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0310",
+    "name": "Rassie van der Dussen",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0311",
+    "name": "Andile Phehlukwayo",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0312",
+    "name": "Chris Morris",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0313",
+    "name": "Beuran Hendricks",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0314",
+    "name": "Dane Paterson",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0316",
+    "name": "Janneman Malan",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0318",
+    "name": "Tony de Zorzi",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0323",
+    "name": "JP Duminy",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0324",
+    "name": "Vernon Philander",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0325",
+    "name": "Andrew Hall",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0326",
+    "name": "Mark Boucher",
+    "country": "South Africa",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0327",
+    "name": "Imran Tahir",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0328",
+    "name": "Nathan Ellis",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0330",
+    "name": "Sean Abbott",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0331",
+    "name": "Ashton Agar",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0333",
+    "name": "Matthew Wade",
+    "country": "Australia",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0334",
+    "name": "Alex Carey",
+    "country": "Australia",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0339",
+    "name": "Mitchell Swepson",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0346",
+    "name": "Jason Behrendorff",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0347",
+    "name": "Chris Lynn",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 42,
+        "runs": 1329,
+        "strike_rate": 140.6,
+        "highest": 93,
+        "hundreds": 0,
+        "fifties": 10,
+        "fours": 132,
+        "sixes": 66,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0348",
+    "name": "Ben Cutting",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0349",
+    "name": "Daniel Sams",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0350",
+    "name": "Dan Christian",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0351",
+    "name": "Peter Siddle",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0352",
+    "name": "Brad Haddin",
+    "country": "Australia",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0353",
+    "name": "Michael Hussey",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0354",
+    "name": "Tom Banton",
+    "country": "England",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0355",
+    "name": "Dawid Malan",
+    "country": "England",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0356",
+    "name": "Moeen Ali",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 59,
+        "runs": 1167,
+        "strike_rate": 139.8,
+        "highest": 93,
+        "hundreds": 0,
+        "fifties": 6,
+        "fours": 95,
+        "sixes": 67,
+        "bowl_innings": 57,
+        "wickets": 41,
+        "economy": 7.23,
+        "bowling_strike_rate": 20.8
+      }
+    }
+  },
+  {
+    "id": "p0358",
+    "name": "Reece Topley",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0360",
+    "name": "Gus Atkinson",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0364",
+    "name": "Jamie Smith",
+    "country": "England",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0365",
+    "name": "Sam Billings",
+    "country": "England",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0369",
+    "name": "Steven Finn",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0370",
+    "name": "Jonathan Trott",
+    "country": "England",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0371",
+    "name": "Matt Prior",
+    "country": "England",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0372",
+    "name": "Monty Panesar",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0373",
+    "name": "Michael Vaughan",
+    "country": "England",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0374",
+    "name": "Nasser Hussain",
+    "country": "England",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0375",
+    "name": "Graham Thorpe",
+    "country": "England",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0376",
+    "name": "Paul Collingwood",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0377",
+    "name": "Darren Gough",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0378",
+    "name": "Tom Latham",
+    "country": "New Zealand",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0379",
+    "name": "Tom Blundell",
+    "country": "New Zealand",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0380",
+    "name": "Jacob Duffy",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0381",
+    "name": "Ish Sodhi",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0382",
+    "name": "Adam Milne",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0385",
+    "name": "Michael Bracewell",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0387",
+    "name": "Mark Chapman",
+    "country": "New Zealand",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0388",
+    "name": "James Neesham",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0389",
+    "name": "Colin de Grandhomme",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0393",
+    "name": "Jacob Oram",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0394",
+    "name": "Nathan Astle",
+    "country": "New Zealand",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0395",
+    "name": "Jesse Ryder",
+    "country": "New Zealand",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0396",
+    "name": "Shane Bond",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0397",
+    "name": "Chris Harris",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0398",
+    "name": "Salman Ali Agha",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0401",
+    "name": "Abrar Ahmed",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0402",
+    "name": "Hasan Ali",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0403",
+    "name": "Faheem Ashraf",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0405",
+    "name": "Kamran Akmal",
+    "country": "Pakistan",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0406",
+    "name": "Umar Akmal",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0407",
+    "name": "Sarfaraz Ahmed",
+    "country": "Pakistan",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0408",
+    "name": "Ahmed Shehzad",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0409",
+    "name": "Imam-ul-Haq",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0410",
+    "name": "Mohammad Hafeez",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0411",
+    "name": "Asif Ali",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0413",
+    "name": "Khushdil Shah",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0414",
+    "name": "Mohammad Nawaz",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0417",
+    "name": "Saud Shakeel",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0419",
+    "name": "Saeed Anwar",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0420",
+    "name": "Aamer Sohail",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0421",
+    "name": "Rashid Latif",
+    "country": "Pakistan",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0422",
+    "name": "Moin Khan",
+    "country": "Pakistan",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0423",
+    "name": "Saeed Ajmal",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0424",
+    "name": "Danish Kaneria",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0425",
+    "name": "Mushtaq Ahmed",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0426",
+    "name": "Abdul Razzaq",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0427",
+    "name": "Mohammad Asif",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0428",
+    "name": "Umar Gul",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0430",
+    "name": "Akeal Hosein",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0431",
+    "name": "Roston Chase",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0432",
+    "name": "Kyle Mayers",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0433",
+    "name": "Obed McCoy",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0436",
+    "name": "Brandon King",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0437",
+    "name": "Evin Lewis",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0438",
+    "name": "Johnson Charles",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0443",
+    "name": "Joshua Da Silva",
+    "country": "West Indies",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0445",
+    "name": "Kemar Roach",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0446",
+    "name": "Sheldon Cottrell",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0447",
+    "name": "Fabian Allen",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0449",
+    "name": "Darren Sammy",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0450",
+    "name": "Carl Hooper",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0451",
+    "name": "Shivnarine Chanderpaul",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0452",
+    "name": "Ramnaresh Sarwan",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0453",
+    "name": "Dinesh Ramdin",
+    "country": "West Indies",
+    "role": "Keeper",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0454",
+    "name": "Fidel Edwards",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0455",
+    "name": "Jerome Taylor",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0456",
+    "name": "Ian Bishop",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0457",
+    "name": "Kusal Perera",
+    "country": "Sri Lanka",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0458",
+    "name": "Avishka Fernando",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0459",
+    "name": "Bhanuka Rajapaksa",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0460",
+    "name": "Dhananjaya de Silva",
+    "country": "Sri Lanka",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0461",
+    "name": "Angelo Mathews",
+    "country": "Sri Lanka",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 41,
+        "runs": 724,
+        "strike_rate": 125.9,
+        "highest": 65,
+        "hundreds": 0,
+        "fifties": 1,
+        "fours": 44,
+        "sixes": 29,
+        "bowl_innings": 44,
+        "wickets": 27,
+        "economy": 8.18,
+        "bowling_strike_rate": 29.3
+      }
+    }
+  },
+  {
+    "id": "p0462",
+    "name": "Dinesh Chandimal",
+    "country": "Sri Lanka",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0463",
+    "name": "Kasun Rajitha",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0464",
+    "name": "Nuwan Thushara",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0465",
+    "name": "Lahiru Kumara",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0466",
+    "name": "Akila Dananjaya",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0467",
+    "name": "Lahiru Thirimanne",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0480",
+    "name": "Aravinda de Silva",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0481",
+    "name": "Arjuna Ranatunga",
+    "country": "Sri Lanka",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0482",
+    "name": "Roshan Mahanama",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0483",
+    "name": "Russel Arnold",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0484",
+    "name": "Upul Tharanga",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0485",
+    "name": "Thisara Perera",
+    "country": "Sri Lanka",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0486",
+    "name": "Nuwan Kulasekara",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0487",
+    "name": "Hashmatullah Shahidi",
+    "country": "Afghanistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0488",
+    "name": "Rahmat Shah",
+    "country": "Afghanistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0489",
+    "name": "Najibullah Zadran",
+    "country": "Afghanistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0490",
+    "name": "Asghar Afghan",
+    "country": "Afghanistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0491",
+    "name": "Mohammad Shahzad",
+    "country": "Afghanistan",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0493",
+    "name": "Naveen-ul-Haq",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0494",
+    "name": "Qais Ahmad",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0503",
+    "name": "Shapoor Zadran",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0507",
+    "name": "Vinod Kambli",
+    "country": "India",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0508",
+    "name": "Mohammad Azharuddin",
+    "country": "India",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0509",
+    "name": "Javagal Srinath",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0510",
+    "name": "Venkatesh Prasad",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0511",
+    "name": "Ashish Nehra",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0512",
+    "name": "Munaf Patel",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0513",
+    "name": "RP Singh",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0514",
+    "name": "Praveen Kumar",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0515",
+    "name": "Murali Kartik",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0516",
+    "name": "Robin Uthappa",
+    "country": "India",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150,
+    "formats": {
+      "ipl": {
+        "innings": 197,
+        "runs": 4952,
+        "strike_rate": 130.4,
+        "highest": 88,
+        "hundreds": 0,
+        "fifties": 27,
+        "fours": 481,
+        "sixes": 182,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0517",
+    "name": "Ijaz Ahmed",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0518",
+    "name": "Aaqib Javed",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0519",
+    "name": "Sohail Tanvir",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0520",
+    "name": "Mark Waugh",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0521",
+    "name": "Justin Langer",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0522",
+    "name": "Damien Martyn",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0523",
+    "name": "Brad Hogg",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0524",
+    "name": "Michael Bevan",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0525",
+    "name": "Jason Gillespie",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0526",
+    "name": "Ian Bell",
+    "country": "England",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0527",
+    "name": "Matthew Hoggard",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0528",
+    "name": "Steve Harmison",
+    "country": "England",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0529",
+    "name": "Lance Klusener",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0530",
+    "name": "Allan Donald",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0531",
+    "name": "Jonty Rhodes",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0532",
+    "name": "Daryll Cullinan",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0533",
+    "name": "Gary Kirsten",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0534",
+    "name": "Jimmy Adams",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0535",
+    "name": "Hashan Tillakaratne",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0536",
+    "name": "Marvan Atapattu",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0537",
+    "name": "Chamara Silva",
+    "country": "Sri Lanka",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0538",
+    "name": "Rangana Herath",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0539",
+    "name": "Mark Richardson",
+    "country": "New Zealand",
+    "role": "Batter",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0540",
+    "name": "Danny Morrison",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0541",
+    "name": "Dion Nash",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0542",
+    "name": "Scott Styris",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0543",
+    "name": "Craig McMillan",
+    "country": "New Zealand",
+    "role": "All-rounder",
+    "category": "Legend",
+    "pool": "Legends",
+    "basePrice": 150
+  },
+  {
+    "id": "p0544",
+    "name": "Sandeep Lamichhane",
+    "country": "Nepal",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0545",
+    "name": "Tim Seifert",
+    "country": "New Zealand",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0546",
+    "name": "Rilee Rossouw",
+    "country": "South Africa",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0548",
+    "name": "Vaibhav Arora",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0549",
+    "name": "Anukul Roy",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0550",
+    "name": "Shahrukh Khan",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 48,
+        "runs": 732,
+        "strike_rate": 149.1,
+        "highest": 58,
+        "hundreds": 0,
+        "fifties": 2,
+        "fours": 46,
+        "sixes": 50,
+        "bowl_innings": 3,
+        "wickets": 1,
+        "economy": 9.33,
+        "bowling_strike_rate": 18
+      }
+    }
+  },
+  {
+    "id": "p0551",
+    "name": "Ramandeep Singh",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0552",
+    "name": "Vishnu Vinod",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0553",
+    "name": "Suryansh Shedge",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0554",
+    "name": "Rahul Tripathi",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 98,
+        "runs": 2291,
+        "strike_rate": 137.8,
+        "highest": 93,
+        "hundreds": 0,
+        "fifties": 12,
+        "fours": 229,
+        "sixes": 85,
+        "bowl_innings": 1,
+        "wickets": 0,
+        "economy": 12
+      }
+    }
+  },
+  {
+    "id": "p0555",
+    "name": "Yash Thakur",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0556",
+    "name": "Mohit Sharma",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0557",
+    "name": "Mayank Markande",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0558",
+    "name": "Arshad Khan",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0559",
+    "name": "Prashant Solanki",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0560",
+    "name": "Yudhvir Singh",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0561",
+    "name": "Rasikh Dar",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0562",
+    "name": "Sanvir Singh",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0563",
+    "name": "Harpreet Brar",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0564",
+    "name": "Kuldeep Sen",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0565",
+    "name": "Tushar Deshpande",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0566",
+    "name": "Shreyas Gopal",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0567",
+    "name": "Varun Aaron",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0568",
+    "name": "Ishan Porel",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0569",
+    "name": "Jalaj Saxena",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0570",
+    "name": "Abhishek Porel",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0571",
+    "name": "Kumar Kushagra",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0572",
+    "name": "Nishant Sindhu",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0573",
+    "name": "Dan Lawrence",
+    "country": "England",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0576",
+    "name": "Ashton Turner",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0577",
+    "name": "Kane Richardson",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0578",
+    "name": "Andrew Tye",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0579",
+    "name": "Mitchell McClenaghan",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0580",
+    "name": "Iqbal Abdulla",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0581",
+    "name": "Lendl Simmons",
+    "country": "West Indies",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0582",
+    "name": "Mayank Dagar",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0583",
+    "name": "Marcus Stoinis",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 99,
+        "runs": 2026,
+        "strike_rate": 144.7,
+        "highest": 124,
+        "hundreds": 1,
+        "fifties": 9,
+        "fours": 158,
+        "sixes": 106,
+        "bowl_innings": 71,
+        "wickets": 44,
+        "economy": 9.79,
+        "bowling_strike_rate": 20.2
+      }
+    }
+  },
+  {
+    "id": "p0584",
+    "name": "Nathan Coulter-Nile",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0585",
+    "name": "Tim Paine",
+    "country": "Australia",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0586",
+    "name": "Aaron Finch",
+    "country": "Australia",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 90,
+        "runs": 2091,
+        "strike_rate": 128.2,
+        "highest": 88,
+        "hundreds": 0,
+        "fifties": 15,
+        "fours": 214,
+        "sixes": 78,
+        "bowl_innings": 5,
+        "wickets": 1,
+        "economy": 9.35,
+        "bowling_strike_rate": 43
+      }
+    }
+  },
+  {
+    "id": "p0587",
+    "name": "Pawan Negi",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0588",
+    "name": "Manpreet Gony",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0589",
+    "name": "Tanmay Agarwal",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0590",
+    "name": "Anmolpreet Singh",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0591",
+    "name": "Mandeep Singh",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 97,
+        "runs": 1706,
+        "strike_rate": 122.9,
+        "highest": 77,
+        "hundreds": 0,
+        "fifties": 6,
+        "fours": 176,
+        "sixes": 38,
+        "bowl_innings": 2,
+        "wickets": 0,
+        "economy": 13
+      }
+    }
+  },
+  {
+    "id": "p0592",
+    "name": "Ankit Rajpoot",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0593",
+    "name": "Murugan Ashwin",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0594",
+    "name": "Anuj Rawat",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0595",
+    "name": "Mahipal Lomror",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0596",
+    "name": "Suyash Prabhudessai",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0597",
+    "name": "Prerak Mankad",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0598",
+    "name": "Kumar Kartikeya",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0599",
+    "name": "Lalit Yadav",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0600",
+    "name": "Vicky Ostwal",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0601",
+    "name": "Abhinav Manohar",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0602",
+    "name": "Darshan Nalkande",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0603",
+    "name": "Sandeep Warrier",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0604",
+    "name": "Rishi Dhawan",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0605",
+    "name": "Jagadeesha Suchith",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0606",
+    "name": "Kamlesh Nagarkoti",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0607",
+    "name": "Rahul Buddhi",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0608",
+    "name": "Ravi Rampaul",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0609",
+    "name": "Sunil Joshi",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0610",
+    "name": "Parvez Rasool",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0611",
+    "name": "Ashok Dinda",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0612",
+    "name": "Dhawal Kulkarni",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0613",
+    "name": "Stuart Binny",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0614",
+    "name": "Sachin Baby",
+    "country": "India",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0616",
+    "name": "Samuel Badree",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0617",
+    "name": "Dwayne Pretorius",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0618",
+    "name": "Kyle Abbott",
+    "country": "South Africa",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0619",
+    "name": "Wayne Parnell",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0620",
+    "name": "Moises Henriques",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0621",
+    "name": "Cameron White",
+    "country": "Australia",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50
+  },
+  {
+    "id": "p0622",
+    "name": "Ayush Mhatre",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0623",
+    "name": "Prabhsimran Singh",
+    "country": "India",
+    "role": "Keeper",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25,
+    "formats": {
+      "ipl": {
+        "innings": 52,
+        "runs": 1355,
+        "strike_rate": 152.8,
+        "highest": 103,
+        "hundreds": 1,
+        "fifties": 8,
+        "fours": 141,
+        "sixes": 71,
+        "bowl_innings": 0,
+        "wickets": 0
+      }
+    }
+  },
+  {
+    "id": "p0624",
+    "name": "Shashank Singh",
+    "country": "India",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "IPL",
+    "basePrice": 50,
+    "formats": {
+      "ipl": {
+        "innings": 33,
+        "runs": 773,
+        "strike_rate": 157.8,
+        "highest": 68,
+        "hundreds": 0,
+        "fifties": 5,
+        "fours": 56,
+        "sixes": 43,
+        "bowl_innings": 4,
+        "wickets": 1,
+        "economy": 10.4,
+        "bowling_strike_rate": 30
+      }
+    }
+  },
+  {
+    "id": "p0625",
+    "name": "Atharva Taide",
+    "country": "India",
+    "role": "Batter",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0626",
+    "name": "Vijaykumar Vyshak",
+    "country": "India",
+    "role": "Bowler",
+    "category": "Uncapped",
+    "pool": "IPL",
+    "basePrice": 25
+  },
+  {
+    "id": "p0627",
+    "name": "Matthew Kuhnemann",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0628",
+    "name": "Josh Philippe",
+    "country": "Australia",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0629",
+    "name": "Todd Murphy",
+    "country": "Australia",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0631",
+    "name": "Jamie Overton",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0632",
+    "name": "Alex Hales",
+    "country": "England",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0633",
+    "name": "James Vince",
+    "country": "England",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0634",
+    "name": "Tom Curran",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0635",
+    "name": "Ben Foakes",
+    "country": "England",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "Test",
+    "basePrice": 50
+  },
+  {
+    "id": "p0636",
+    "name": "Gudakesh Motie",
+    "country": "West Indies",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0643",
+    "name": "Najmul Hossain Shanto",
+    "country": "Bangladesh",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0645",
+    "name": "Towhid Hridoy",
+    "country": "Bangladesh",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0646",
+    "name": "Mehidy Hasan Miraz",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0647",
+    "name": "Nasum Ahmed",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0648",
+    "name": "Mahedi Hasan",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0649",
+    "name": "Hasan Mahmud",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0650",
+    "name": "Shoriful Islam",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0652",
+    "name": "David Willey",
+    "country": "England",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0653",
+    "name": "Scott Edwards",
+    "country": "Netherlands",
+    "role": "Keeper",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0654",
+    "name": "Max O'Dowd",
+    "country": "Netherlands",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0655",
+    "name": "Bas de Leede",
+    "country": "Netherlands",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0658",
+    "name": "Paul van Meekeren",
+    "country": "Netherlands",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0659",
+    "name": "Colin Ackermann",
+    "country": "Netherlands",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0660",
+    "name": "Roelof van der Merwe",
+    "country": "Netherlands",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0661",
+    "name": "Logan van Beek",
+    "country": "Netherlands",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0668",
+    "name": "Abdullah Shafique",
+    "country": "Pakistan",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0670",
+    "name": "Dimuth Karunaratne",
+    "country": "Sri Lanka",
+    "role": "Batter",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0674",
+    "name": "Usman Tariq",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  },
+  {
+    "id": "p0680",
+    "name": "George Linde",
+    "country": "South Africa",
+    "role": "All-rounder",
+    "category": "Capped",
+    "pool": "International",
+    "basePrice": 50
+  }
+]
