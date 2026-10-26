@@ -34,13 +34,22 @@ export function setName(name) {
 export const playerId = getPlayerId();
 export const socket = io({ auth: { playerId }, autoConnect: true });
 
-// Sends an event and resolves with the server's reply. Never hangs: times out after 8 seconds.
+// Sends an event and resolves with the server's reply. Never waits on an offline socket.
 export function send(type, payload = {}) {
   return new Promise((resolve) => {
-    const timer = setTimeout(() => resolve({ ok: false, error: "No response from server" }), 8000);
-    socket.emit(type, payload, (reply) => {
-      clearTimeout(timer);
-      resolve(reply);
+    if (!socket.connected) {
+      resolve({ ok: false, error: "Not connected to the server. Check your connection and try again." });
+      return;
+    }
+
+    socket.timeout(8000).emit(type, payload, (error, reply) => {
+      if (error) {
+        resolve({ ok: false, error: "The server did not respond. Please try again." });
+      } else if (!reply || typeof reply !== "object") {
+        resolve({ ok: false, error: "The server returned an invalid response." });
+      } else {
+        resolve(reply);
+      }
     });
   });
 }

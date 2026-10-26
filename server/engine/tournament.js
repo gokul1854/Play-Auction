@@ -24,9 +24,10 @@ export function createKnockoutFixtures(codes) {
     ];
   }
 
+  const finalists = list.slice(0, 4);
   const fixtures = [
-    { stage: "match 1", home: list[0], away: list[1] },
-    { stage: "match 2", home: list[2], away: list[3] },
+    { stage: "match 1", home: finalists[0], away: finalists[1] },
+    { stage: "match 2", home: finalists[2], away: finalists[3] },
   ];
   fixtures.push({ stage: "third-place", home: null, away: null });
   fixtures.push({ stage: "final", home: null, away: null });
@@ -132,36 +133,42 @@ export function runTournament({ teams, rng = Math.random, format = "league-playo
 
   if (formatName === "knockout") {
     const bracket = createKnockoutFixtures(codes);
-    for (let i = 0; i < bracket.length; i++) {
-      const fixture = bracket[i];
-      if (!fixture.home || !fixture.away) {
-        if (fixture.stage === "third-place") {
-          const previous = playoffs.slice(-2);
-          const loserA = previous[0]?.winner && previous[0].winner !== previous[0].home ? previous[0].home : previous[0]?.away;
-          const loserB = previous[1]?.winner && previous[1].winner !== previous[1].home ? previous[1].home : previous[1]?.away;
-          if (loserA && loserB) {
-            const m = play("third-place", loserA, loserB);
-            playoffs.push(m);
-            recordResult(rows, m);
-            continue;
-          }
-        }
-        if (fixture.stage === "final") {
-          const winners = playoffs.filter((m) => m.stage === "match 1" || m.stage === "match 2").map((m) => m.winner).filter(Boolean);
-          const [home, away] = winners;
-          if (home && away) {
-            const m = play("final", home, away);
-            playoffs.push(m);
-            recordResult(rows, m);
-            champion = decideWinner(m, table);
-            continue;
-          }
-        }
-        continue;
-      }
-      const m = play(fixture.stage, fixture.home, fixture.away);
+    const seededCodes = [...codes];
+    if (seededCodes.length === 2) {
+      const m = play("final", seededCodes[0], seededCodes[1]);
       playoffs.push(m);
       recordResult(rows, m);
+      champion = decideWinner(m, table);
+    } else if (seededCodes.length === 3) {
+      const semi = play("semi-final", seededCodes[0], seededCodes[1]);
+      playoffs.push(semi);
+      recordResult(rows, semi);
+      const winner = decideWinner(semi, table);
+      const final = play("final", winner, seededCodes[2]);
+      playoffs.push(final);
+      recordResult(rows, final);
+      champion = decideWinner(final, table);
+    } else {
+      const finalists = seededCodes.slice(0, 4);
+      const matchOne = play("match 1", finalists[0], finalists[1]);
+      const matchTwo = play("match 2", finalists[2], finalists[3]);
+      playoffs.push(matchOne, matchTwo);
+      recordResult(rows, matchOne);
+      recordResult(rows, matchTwo);
+
+      const winOne = decideWinner(matchOne, table);
+      const winTwo = decideWinner(matchTwo, table);
+      const loseOne = matchOne.home === winOne ? matchOne.away : matchOne.home;
+      const loseTwo = matchTwo.home === winTwo ? matchTwo.away : matchTwo.home;
+
+      const thirdPlace = play("third-place", loseOne, loseTwo);
+      playoffs.push(thirdPlace);
+      recordResult(rows, thirdPlace);
+
+      const final = play("final", winOne, winTwo);
+      playoffs.push(final);
+      recordResult(rows, final);
+      champion = decideWinner(final, table);
     }
     table = sortTable(rows);
     champion = champion ?? (playoffs.at(-1)?.winner ?? null);

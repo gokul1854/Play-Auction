@@ -150,7 +150,7 @@ export function createHandlers({ store, pool }) {
     "tournament:run": (session, payload, now) => {
       const { room, error } = roomFor(session);
       if (error) return { ok: false, error };
-      return { ...runTournamentRoom(room, { now }), roomCode: room.code };
+      return { ...runTournamentRoom(room, { now, format: payload?.format }), roomCode: room.code };
     },
 
     // Full ball-by-ball detail for one tournament match, opened from the fixture list.
